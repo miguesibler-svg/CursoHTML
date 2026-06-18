@@ -1,0 +1,17 @@
+-- Que es HTML :
+
+HTML 5 es un lenguaje de maquetado o de etiquetas
+
+HTML significa Lenguaje de Marcado de Hipertexto (Hyper Text Markup Language)
+
+se utiliza mayoritariamente para la ceración de paginas web o frontend de aplicaciones web.
+
+Se usa en conjunto de CSS, el cual permite agregar colores, estilos, entre otras cuestiones que dejan a nuestra maqueta HTML con aspectos de diseño. 
+
+-- Estructura HTML 
+
+Doctype: Indica al navegador que versión de HTML estamos utilizando. Va al principio de un archivo HTML
+
+Elementos: Nos permiten estructurar y dar significado a cada una de las partes de un documento HTML. Se representan en forma de etiquetas.
+
+Las etiquetas delimitan el principio y fin de un elemento. 
