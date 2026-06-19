@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><i>Los 10 mejores Animes</i></h1>
+        <p>para mas informacion siguemos en <a href="https://www.facebook.com/" >Facebook</a>
+        <br>
+    
+    <h2><u>Índice<u></h2>
+        <p><a href="#db">Dragon Ball Z</a></p>
+        <p><a href="#na">Naruto</a></P>
+        <p><a href="#OP">One Piece</a></p>
+        <p><a href="#san">saint seiya</a></p>
+        <br>
+    
+    <h2 id="db" ><i>Dragon Ball Z</i></h2>
+        <p>Dragon Ball Z es una serie de anime basada en el manga de Akira Toriyama a partir del volumen 17 original. Fue producida y realizada por el estudio de animación japonés Toei Animation como continuación directa de Dragon Ball, que se empezó a transmitir en Japón una semana después de la finalización de la primera serie. </p>
+        <br>
+        <p>Dragon Ball Z se estrenó en México el 2 de septiembre de 1997 a través del Canal 5 de Televisa (su estreno estaba previsto para el día anterior, pero la programación de dicho canal se vio interrumpida, como era costumbre en esos años, por la transmisión del informe de gobierno del entonces presidente Ernesto Zedillo). </p>
+        <br>
+        <p>En ese año se estrenó la saga de los saiyajin y los primeros episodios de la saga de Freezer, en 1998 se transmitieron los episodios restantes de Freezer y continuo con la saga de Cell y en 1999 la saga de Majin Buu, en horario estelar (usualmente entre las 7:30 pm y las 8:30 pm).</p>
+        <br>
+        <p>Debido a su gran éxito, es el único anime que se ha transmitido casi ininterrumpidamente desde su estreno hasta abril de 2009, luego regresó al aire en febrero de 2011 hasta marzo de 2012, y nuevamente a partir del 6 de octubre de 2014. Cabe recalcar que la serie, en sus primeros años de transmisión por televisión mexicana, no tuvo censura en las secuencias violentas (pero sí en las escenas de humor erótico), y se transmitió en su totalidad en horario vespertino y nocturno.</p>
+        <br>
+    <h2 id="na" ><u>Naruto</u></h2> 
+        <p>Naruto Uzumaki (うずまきナルト, Uzumaki Naruto) es el protagonista de la serie del manga y anime Naruto y Naruto Shippūden. Asimismo es partícipe del manga y anime Boruto: Naruto Next Generations, secuela de la obra original de Masashi Kishimoto. </p>
+        <br>
+        <p>Es residente de Konohagakure, hijo del Cuarto Hokage, Minato Namikaze y su esposa Kushina Uzumaki, además de ser la actual reencarnación de Asura Ōtsutsuki.</p>
+        <br>
+        <p>Fue miembro del Equipo Kakashi junto a Sakura Haruno y Sasuke Uchiha. Actualmente es el Séptimo Hokage (七代目火影, Nanadaime Hokage; literalmente «Séptima Sombra del Fuego») de Konoha, cumpliendo su sueño, así como también el esposo de Hinata Hyūga y padre de Boruto Uzumaki y Himawari Uzumaki.</p>
+        <br>
+        <p>Naruto, según lo establecido por Jiraiya, tiene un gran parecido con su padre, heredando sus ojos azules y su cabello rubio de punta, de igual forma, de su madre heredó la forma de sus ojos y su cara. Las características físicas más importantes y resaltantes de Naruto son las tres marcas de bigotes en ambas mejillas. Además, el rasgo más mencionado con regularidad antes de la Segunda Parte era su baja estatura para su edad. Después de dos años, Naruto tuvo una racha en su crecimiento, llegando a superar en tamaño a Sakura.</p>
+        <br>
+    <h2 id="on" ><i>One Piece</i></h2>
+        <p>Los Cinco Ancianos están muy preocupados por Imu, pero el gobernante no ve otra opción dadas las maquinaciones de la historia. Mientras los Sombrero de Paja se recuperan tras someter a los Caballeros de Dios, presencian el advenimiento de Imu al Castillo Aurust, rodeado de grandes llamas negras que dan vida a los árboles y edificios.</p>
+        <br>
+        <p>Nami despierta y se encuentra en un lugar completamente desconocido con criaturas gigantes atacando una tras otra y acorralándola.</p>
+        <br>
+        <p>El manga generó una franquicia de One Piece, la cual cuenta con dos adaptaciones de anime (una de 1999 y otra de 2027), múltiples especiales de televisión, OVAs, películas de animación, videojuegos, obras de teatro, novelas ligeras, varios mangas spin-offs, y una adaptación de acción real.</p>
+        <br>
+        <p>La serie comienza con la ejecución de Gold Roger, un hombre conocido como el «Rey de los Piratas» (海賊王 Kaizoku-Ō?), quien justo antes de su muerte, hace mención de su gran tesoro legendario, el «One Piece» (ワンピース Wan Pīsu?), y que puede ser tomado por quien lo encuentre. Esto marca el inicio de una era conocida como la «Gran Era de los Piratas» (大海賊時代 Daikaizokujidai?).</p>
+        <br>
+    <h2 id="san" ><b>Saint Seiya</b></h2>
+        <p>Saint Seiya (聖闘士星矢, Seinto Seiya), también conocido como "Los Caballeros del Zodiaco" en los países de habla hispana, es un manga y anime shōnen de género nekketsu creado originalmente por el mangaka Masami Kurumada. </p>
+        <br>
+        <p>Fue publicado inicialmente desde enero de 1986 en formato manga en la revista Shūkan Shōnen Jump de la editorial ShūeishaW. También se realizó una adaptación animada que consta de 114 episodios y luego 31 OVAs que continúan la historia desde donde terminó la serie de televisión anterior. Además, se han realizado seis películas y varias series derivadas del manga original y su adaptación al anime, permaneciendo así vigente hasta la fecha.</p>
+        <br>
+        <p>La trama de la serie se enfoca en un grupo de jóvenes guerreros denominados Saints (o Caballeros en varias traducciones), que luchan junto a la diosa griega Athena para proteger a la humanidad de las fuerzas del mal que quieren dominar la Tierra.</p>
+        <b>
+        <p>En un ranking acerca de los 100 mejores animes de la historia, realizado en línea en Japón y publicado en 2005 por TV AsahiW, Saint Seiya alcanzó el puesto número 11,​ mientras que en otro ranking realizado en 2006 alcanzó el puesto número 25.​</p>
+        <br>
+    <h3><b><a href="#inicio" >Regresar al Inicio</a></b></h3>
+
+</body>
+</html>
+
