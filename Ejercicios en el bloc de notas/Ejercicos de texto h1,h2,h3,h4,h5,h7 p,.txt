@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<HTML Lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"
+	<title> document </title>
+<head>
+<body>
+	<h1><b>Lenguajes de Programación</b> para el backend</h1>
+	<h2>Java</h2>
+	<h3>Java EE </h3>
+	<p> Lorem ipsum dolor sit, amet <u>consectetur adipisicing</u> elit. Eaque earum quaerat quidem et sed voluptate quod id nam, 
+	    minima modi molestias eligendi amet error fugit ducimus. Exercitationem, <i>natus</i>. Consequuntur, itaque. 	
+	</p>
+
+	<h3>Java SE</h3>
+	<p> Lorem ipsum <b>dolor</b> sit, amet consectetur adipisicing elit. Eaque <u>earum</u> quaerat quidem et sed voluptate quod id nam, 
+		minima modi molestias eligendi amet <i>error fugit ducimus</i>. Exercitationem, natus. Consequuntur, itaque. 
+	</p>
+	
+
+	<h2>Javascript</h2>
+	<h3> Comandos </h3>
+	<p>
+	Lorem ipsum <b>dolor sit</b>, amet consectetur <u>adipisicing</u> elit. Eaque earum quaerat quidem et sed voluptate quod id nam, 
+		minima modi molestias eligendi amet error fugit ducimus. <i> Exercitationem, natus. Consequuntur</i>, itaque.
+	</p>
+
+	
+	<h2>PHP</h2>
+	<h3> formularios </h3>
+	<p>
+	Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque earum quaerat quidem et sed voluptate quod id nam,
+	 minima modi molestias eligendi amet error fugit ducimus. Exercitationem, natus. Consequuntur, itaque.
+	</p>
+	
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Document</title>
+</head>
+<body>
+	<h1> <b>películas de Harry potter</b> </h1>
+		<p>Las peliculas se <b>basan en el libro del mismo nombre</b> </p>
+	<h2> <u> Harry potter y la piedra filosofal<u> <h2>
+		<p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque earum quaerat quidem et sed voluptate quod id nam, 
+			minima modi molestias eligendi amet error fugit ducimus. Exercitationem, natus. Consequuntur, itaque.
+		</p>
+
+	<h2> <u> Harry Potter y La cámara secreata</u> </h2>
+		<p> Lorem ipsum dolor sit, amet consectetur <i>adipisicing elit<i>. Eaque earum quaerat quidem et sed voluptate quod id nam, 
+			minima modi molestias eligendi amet error fugit ducimus. Exercitationem, natus. Consequuntur, itaque.
+		</p>
+	<h2> <u> Harry Potter y el Prisioneros de Askaban</u> </h2>
+		<p> Lorem ipsum dolor sit, amet consectetur <i> adipisicing elit <i>. Eaque earum quaerat quidem et sed voluptate quod id nam, 
+			minima modi molestias eligendi amet error fugit ducimus. Exercitationem, natus. Consequuntur, itaque.
+		</p>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"
+	<title> doctument</title>
+<head>
+<body>
+	<h1> <b> Equipos de Futbol en el mundial <b> </h1>
+		<p> <u> son los equipos que representan a su país en el mundial de futbol<u> en la desde de mexico, canada y estados unidos</p>
+
+	<h2> <b> Mexico </b> </h2>
+
+		<p> Lorem ipsum dolor sit, <u> amet consectetur adipisicing elit <u>. Eaque earum quaerat quidem et sed voluptate quod id nam, 
+			minima modi molestias <i> eligendi amet error fugit ducimus</i>. Exercitationem, natus. Consequuntur, itaque.
+		</p>
+		<br>
+		<br>
+		<br>
+	<h2> <u> España <u> </h2>
+
+		<p><i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque earum quaerat quidem et sed voluptate quod id nam, 
+			minima modi molestias eligendi amet error fugit ducimus. Exercitationem, natus. Consequuntur, itaqu</i>
+		</p>
+
+	<h2> <u> Korea del sur </u> </h2>
+
+		<p> <i> Lorem ipsum dolor sit, <b> amet consectetur adipisicing elit. Eaque earum quaerat quidem et sed voluptate quod id nam, 
+			minima modi molestias</b> eligendi<i> amet error fugit ducimus. Exercitationem, natus. Consequuntur, itaqu
+		</p>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

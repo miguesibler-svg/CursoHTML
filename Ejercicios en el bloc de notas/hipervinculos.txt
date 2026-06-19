@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8";
+	<meta name"viewport" content="width=device-width, identity-scale=1.0">
+	<title> HiperVinculos</title>
+<head>
+<body>
+	<h1 id="inicio"> libros de Harry Potter </h1> 
+	<P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, facere enim architecto modi possimus 
+	voluptatum in doloremque expedita quaerat molestias incidunt, dicta, similique maiores reprehenderit nostrum.
+	</p>
+	
+	<h2> Índice </h2>
+	<p><a href="#peli1"> Pelicula 1  </a></p>
+	<p><a href="#peli2"> Pelicula 2 </a></p>
+	<p><a href="#peli3"> Pelicula 3 </a></p
+	
+	<br>
+	
+	<h2 id="peli1"> <b>Harry Potter y la piedra filosofal</b> </h2>
+	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, facere enim architecto modi possimus 
+	voluptatum in doloremque expedita quaerat molestias incidunt, dicta, similique maiores reprehenderit nostrum.
+	</p>
+
+	<br>
+	<h2 id="peli2"> <b> Harry Potter y la cámara secreat</b></h2>
+	<p><i>Lorem ipsum, dolor sit amet consectetur</i> adipisicing elit. Laudantium, facere enim architecto modi possimus 
+	voluptatum in doloremque <u>expedita quaerat molestias incidunt</u>, dicta, similique maiores reprehenderit nostrum.
+	</p>
+	
+	<br>
+	
+	<h2 id="peli3"> <b> Harry Potter y el prisionero de askaban</b></h2>
+	<p><u>Lorem ipsum, dolor sit amet</u> consectetur adipisicing elit. Laudantium, facere enim architecto modi possimus 
+	voluptatum in doloremque expedita <i>quaerat molestias incidunt</i>, dicta, similique maiores reprehenderit nostrum.
+	</p>
+
+	
+	<p><a href="#inicio"> Regresar al Principio</a></p>
+
+</body>
+</HTML>
+
+
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"
+	<title> Hipervinculos</title>
+</head>
+<body>
+	
+	<h1 id="incio"> Personajes de Naruto </h1>
+	<p> Los personajes de naruto son importantes para la trama como el proceso de la historia del protagonista asi como su desarrollo todo esto 
+	    puede ser leído en <a href="https://naruto.fandom.com/es/wiki/Naruto_Wiki">Naruto fan</a>.
+	</p>
+	
+	<h2><b>Índice</b></h2>
+	<p><a href="#naruto">Naruto</a></p>
+	<p><a href="#sasuke">Sasuke</a></p>
+	<p><a href="#hinata">Hinata</a></p>
+	<p><a href="#sakura">Sakura</a></p>
+
+	<br>
+
+	<h2 id="naruto" ><b><u>Naruto</u></b></h2>
+	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, facere enim architecto modi possimus
+	 voluptatum in doloremque expedita quaerat molestias incidunt, dicta, similique maiores reprehenderit nostrum.
+	</p>
+
+	<br>
+
+	<h2 id="sasuke"><i><b>Sasuke</b></i></h2>
+	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, facere enim architecto modi possimus
+	 voluptatum in doloremque expedita quaerat molestias incidunt, dicta, similique maiores reprehenderit nostrum.
+	</p>
+
+	<br>
+
+	<h2 id="hinata">Hinata</h2>
+	<p>Lorem ipsum, dolor sit amet <i>consectetur adipisicing elit</i>. Laudantium, facere enim architecto modi possimus
+	 voluptatum in doloremque <u>expedita quaerat molestias incidunt</u>, dicta, similique maiores reprehenderit nostrum.
+	</p>
+
+	<br>
+
+	<h2>Sakura</h2>
+	<p>Lorem ipsum, dolor <i>sit amet consectetur adipisicing elit</i>. Laudantium, facere enim architecto modi possimus
+	 voluptatum in <u>doloremque expedita quaerat</u> molestias incidunt, dicta, similique maiores reprehenderit nostrum.
+	</p>
+
+	<br>
+
+	<p><a href="#inicio">Regresar al Inicio</a></p>
+	
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Rapidos y furiosos</title>
+</head>
+<body>
+	
+	<h1 id="inicio">Rapidos y Furiosos</h1>
+	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+	   Laudantium <a href="https://fastandfurious.fandom.com/es/wiki/Wiki_The_Fast_%26_The_Furious"> Rapidoso y furiosos</a>.
+	</p>
+
+	<p>Índice</p>
+	<p><a href="#rapido1">Rápidos y furiosos 1</a><p>
+	<p><a href="#rapido2">Rápidos y furiosos 2</a><p>
+	<p><a href="#rapido3">Rápidos y furiosos 3</a><p>
+	<p><a href="#rapido4">Rápidos y furiosos 4</a><p>
+
+	<br>
+
+	<h2 id="rapido1"><u>Rápidos y furiosos 1</u></h2>
+	<p>Lorem ipsum, <b>dolor sit amet consectetur adipisicing elit</b>. Laudantium, facere enim architecto modi 
+	possimus voluptatum in <i>doloremque expedita quaerat molestias</i> incidunt, dicta, similique maiores reprehenderit.
+	</p>
+
+	<br>
+
+	<h2 id="rapido2"><b>Rápidos y furisos 2</b></h2>
+	<p>Lorem ipsum, <u>dolor sit amet consectetur</u> adipisicing elit. Laudantium, facere enim architecto modi 
+	possimus voluptatum in <i>doloremque expedita quaerat molestias</i> incidunt, dicta, similique maiores reprehenderit.
+	</p>
+
+	<br>
+
+	<h2 id="rapido3">Rápido y furiosos 3</h2>
+	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, facere enim architecto modi 
+	possimus voluptatum in doloremque expedita quaerat molestias incidunt, dicta, similique maiores reprehenderit.
+	</p>
+
+	<br>
+
+	<h2 id="rapido4">Rápido y furioso 4</h2>
+	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, facere enim architecto modi 
+	possimus voluptatum in doloremque expedita quaerat molestias incidunt, dicta, similique maiores reprehenderit.
+	</p>
+
+	<br>
+
+	<p><a href="#inicio">Regresar al Inicio<a></p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
