@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h1>Lenguaje de programacion</h1>
+	<p>este es un texto de ejemplo que contiene <b>negritas</b>, también contiene <i>cursivas</i> y 
+	   también contiene <u>subrayado</u>
+	<br>
+	<h2>Java</h2>
+	<p>Este es un texto de prueba pero no obstante es un texto muy bueno</P>
+	<br>
+	<h3>php</h3>
+	<p>este es un texto con <b>negritas</b>, <i>cursivas</i>, <u> subrayado</u> ljslfjs</p>
+	<br>
+</body>
+</html>

@@ -1,0 +1,3 @@
+¿Que son los hiperviculos?
+
+Los hipervínculos en HTML (también conocidos como enlaces o links) son elementos interactivos que conectan una página web con otra, o con una sección específica dentro del mismo documento

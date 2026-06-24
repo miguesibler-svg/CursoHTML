@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Multimedia</title>
+
+</head>
+<body>
+	<h1>Este es un practica de Multimedia</h1>
+	<p>Este es un párrafo que contiene <b>negritas</b> también contiene <u>subrayado</u> también contiene <i>cursiva</i>lsflsfjlsf</p>
+	
+	<h2>Índice</h2>
+	<p><a href="#vd"> Video </a></p>
+	<p><a href="#im"> Imagen </a></p>
+	<p><a href="#ad"> audio </a></p>
+	<br>
+	<hr>
+
+	<h3 id="vd"> Video</h3>
+	<p>sdfjsldfjsklfjklsajdfjañdfjaslñdjfñalsdjfñlasdjflñkasjflasjfdlñksda </p>
+	<video src="video/video.mp4" controls width="200"> </video>
+	<br>
+	<hr>
+
+	<h3 id="im"> Imagen </h3>
+	<p>lsfjlksdjflsdjdflksjf <b>sljfls</b> lsjflsjflkdsjf <u> slfjdslfj </u> lsjflsjlksdjflks <i>ljsdkljsdklfjsd </i> lsjfl </p>
+	<img src="imagen/imagen.jpg" width="300" heigth="200">
+	<br>
+	<hr>
+
+	<h3 id="ad"> Audio </h3>
+	<p> lsfjlsjflsjdfklsdjf <b>sjflsdf</b> lsjflsdjflks <u>lsfjsldfj</u> lsjflsjfldsfj <i> lsjlsdfdldsfjd </i> sljfsldjdsljsdf </p>
+	<audio src="audio/audio.mp3" controls></audio>
+	<br>
+	<hr>
+
+	<a href="https://www.w3schools.com/"> visitar w3school</a>
+
+	<p> <a href="#inicio"> regresar al principio </a> </p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Multimedia</title>
+</head>
+<body>
+	<h1 id=inicio> Creación de MUltimedias</h1>
+	<p> lajdlajdljadslfjasldk <b>lsdjsld</b> lsjdlsdjldsj <i> lsjdldsjf </i> ladjlasdjlsdj <u> sdjldfsj </u>ljflasdjlas </p>
+	<br>
+	<hr>
+
+	<h2> Índice </h2>
+	<p><a href="#vd">video</a></p>
+	<p><a href="#ad">audio</a></p>
+	<p><a href="#img"> imagen </a></p>
+	<br>
+	<hr>
+
+	<h3 id="vd">video<h3>
+	<video src="video/video.mp4" controls width="400" heigth="200"></video>
+	<br>
+	<hr>
+	
+	<h3 id="ad"> Audio <h3>
+	<audio src="audio/audio.mp3" controls ></audio>
+	<br>
+	<hr>
+
+	<h3 id="img"> imagen <h3>
+	<img src="imagen/imagen.jpg" width="200" heigth="200">
+	<br>
+	<hr>
+
+	<p><a href="https://www.w3schools.com/">Visidar W3school></a></p>
+	<p><a href="#inicio">regresar al principio</a><p>
+	
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

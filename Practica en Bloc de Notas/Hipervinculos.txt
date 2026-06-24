@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> document </title>
+</head>
+<body>
+	<h1 id="inicio">Personajes de naruto</h1>
+	<p>este es tun texto de prueba no es necesario el recordar <i>cursiva</i> ljslj <b> negrita</b> slfslfj <u>subrayado</u>
+	
+	<h2> Índice <h2>
+	<p id="na"> naruto </p>
+	<p id="sa"> sasuke </p>
+	<p id="hi"> Hinata </p>
+	<p id="sh"> shikamaru </p>
+	<br>
+	<hr>
+	
+	<h2 id="na"> naruto</h2>
+	<p>sljfslkdfjlsjdflsjfls <b>sljfsljf</b> lsjflsjfls <i> sljfslf </i> sljflsfjls <u>lsfslfjslfj</u></p>
+	<br>
+	<hr>	
+
+	<h2 id="sa"> sasuke </h2>
+	<p>lfjlsjflslsjfl <b>lsfsljf</b> lsjflsjflsj <i>flsjfslfj</i> lsfjlsjflsjf <u> lsjflsjf </u>
+	<br>
+	<hr>
+
+	<h3 id="hi"> Hinata </h3>
+	<p>sljflsjfls jslfjlsjflsjflslfjsl <i>ljflsjf</i sljflsfjlsfj <b>lsjflsjf</b> sjlsfjlsjf <u> lsjlsfj </u> </p>
+	<br>
+	<hr>
+
+	<h4 id="sh">shikamaru </h4>
+	<p> slflsjflsjlsjflsjflsjflsfjlsjflsjflsjflsj <u>sljslfjs</u> lsfjlsfjlsjf <i>lsjlsfjljs</i> lsjflsjflsjf <b>lsfjsljf</b> </p>
+	<br>
+	<hr>
+
+	<p> conocer mas en <a href="https://www.w3schools.com/"> w3school </a> </p>
+
+	<p> <a href="#inicio"> regresar a inicio </a>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Document </title>
+</head>
+<body>
+	<h1 id="inicio"> Mejores Animes <h1>
+	<p>sfljdskjsdjksldfjklsdflsflksf <b>negrita</b> sjflsjflsjflsjfls <i>lsjflsjf</i> lsjflsjflsjfs <u> lsfjlsjflsj </u>lsjflsjfls </p>
+	<br>
+
+	
+	<h2>Índice</h2>
+	<p><a href="#db"> dragón ball </p>
+	<p><a href="#na"> naruto </p>
+	<p><a href="#on"> one piece </a></p>
+	<p><a href="#pk"> pokemon </a></p>
+
+	<br>
+	<hr>
+	
+	<h3 id="db">Dragon Ball Z</h3>
+	<p> sljfslfjlsjflsjflsjflsjdslkfdj <i>lsflsjf</i> sljflsjfklsjdfklsdf <u> sljflsjflksjdf </u> slflsjdsjfdlsjdfljsdlf <b>sljflsf</b> </p>
+	<br>
+	<hr>
+
+	<h3 id="na"> Naruto </h3>
+	<p> slfjlsjfksljdklsjdkflsdfj <b>lsjflsjf</b> lsjflsjdfklsdjfs <u>lsjfslfj</u> lsjflsjlkdjskdfljfs <i> lsjlfsj </i> </p>
+	<br>
+	<hr>
+
+	<h3 id="on">One Piece</h3>
+	<p>lsflsjfklsjdfklsdf <b>lsfjsl</b> lsjdlsjdflsd <i>slfjsdlsdjf </i> lsjflsjdklsjdfklsjdf <u>lsfjsljfdjf</u> </p> 
+	<br>
+	<hr>
+	
+	<h3 id="pk"> pokemon </h3>
+	<p>lsdjflsjdklfjsd <b>slfjs</b> lsjflsjdflsjdf <u>lsjflsdfj</u> ljslfsjdflk <i>sljdflsdfj</i>lfjlsdfj </p>
+	<br>
+	<hr>
+
+	<p> puedes ir a consultar en <a href="https://www.w3schools.com/"> </p>
+	
+	<a href="#inicio"> regresar al inicio</a>
+	
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
