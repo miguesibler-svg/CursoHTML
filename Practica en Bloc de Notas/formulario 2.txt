@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initil-scale=1.0">
+	<title> Documento </title>
+</head>
+<body>
+	<h1>formulario 1>
+	<p>Esté formulario es importante ya que tine <b>practica</b> sfjsl <i>naruo</i> lsjfls <u>lsfjlsf</u>
+	lajflafjla </p>
+	
+	<a href="https://www.google.com">Google</a>
+	<a href="#final"> final </a>
+	<br>
+	<hr>
+	
+	<h2>Multimedia<h2>
+	
+	<video src="video.mp4" controls width="200" height="200"></video>
+	<audio src="audio.mp3" controls></audio>
+	<img src="imagen.jpg" width="300" height="200">
+
+	<h3>Formulario</h4>
+	<form action="formulario.hml" method="post">
+		<p> <label for="nombre"> Nombre: <input type="text" id="nombre"> </label> </p>
+		<p> <label for="apellido"> Apellido: <input type="text" id="apellido"> </label> </p>
+		<p>genreos favorios</p>
+		<select>
+			<option value="pop"> pop </option>
+			<option value="grupero"> grupero </option>
+			<option value="rap"> Rap </option>
+			<option value="ranchera" Ranchera </option>
+		</select> 
+		<br>
+		<hr>
+
+		<input type="checkbox" value="azul"> 
+		<label for="azul"> Azul </label><br>
+		<input type="checkbox" value="amariilo">
+		<label for="amarillo"> amarillo </lable> <br>
+		<input type="rojo" value="rojo">
+		<label for="rojo"> rojo </label>
+
+		<p>verdero o falso</p>
+		<input type="radio" value="false">
+		<label for="false"> false </false>
+		<input type="falso" value="verdadero">
+		<label for="true"> True </True>
+
+		<button type="submit">enviar</button>
+
+	</form>
+				
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> formulario2 </title>
+</head>
+<body>
+	<h1>Formulario test 2</h1>
+	<p>jlfjslf <b>ljffs</b> slfslf <i>jsflsfj</i> lsfjlsfj <u> lfjslj </u> lsfjlsfj </p>
+
+	<h2>hipervínculos </h2>
+	<a href="https://www.google.com"> Google </a>
+	<a href="#fin"> fin </a>
+
+	<h3> multimedia </h3>
+	<img src="imagen.jpg" width="200" height="200">
+	<video src="video.mp4" controls width="200" height="300"></video>
+	<audio src="audio.mp3" controls>
+
+	<h4> Formularios </h4>
+
+	<form action="prueba.html" method="post">
+	
+	<p> <label for="nombre"> Nombre: <input type="text" id="nombre"> </label> </p>
+	<p> <label for="apellido"> Apellido: <input type="text" id="apellido"> </label> </p>
+	<select>
+		<option value="azul" selected>azul</option>
+		<option value="rojo">rojo</option>
+		<option value="verde" diseble>verde</option>
+	</select>
+
+	<input type="checkbox" value="tacos">
+	<label for="tacos"> tacos </label> <br>
+	<input type="checkbox" value="torta">
+	<label for="tortas"> tortas </label> <br>
+	<input type="checkbox" value="pizza">
+	<label for="pizza"> pizza </label <br>
+
+	<input type="radio" value="verdadero">
+	<label for="verdadero"> verdadero</label>
+	<input type="radio" value="falso">
+	<label for="falso">falso</falso>
+
+	<label for="comentario">comentario</label>
+	<textarea id="comentario"></textarea>
+	
+	<button type="submit">Enviar</button>
+
+</body>
+
+
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-widht, initial-scale=1.0">
+	<title> migue </title>
+</head>
+<body>
+	<h1>Textos</h1>
+	<p> sljslfj lsjf <i>slfjsf</i> lsfjslfj <u> sfslfj </u> lsfjlsfj <b> lsfjsljf </b> slfjslfj </p>
+	<hr> 
+	<br>
+
+	<h2>Hipervinculos</h2>
+	<a href="https://www.google.com"> Google </a>
+	<a href="#fin"> fin </a>
+	
+	<h3> Multimedia </h3>
+	<img src="imagen.jpg" width="200" height="dsd">
+	<video src="video.mp4" width="200" height="200" controls>
+	<audio src="audio.mp3" controls>
+
+	<h4> formulario </h4>
+
+	<form action="prueba.html" method="post">
+		<label for="nombre"> Nombre: <input type="text" id="nombre"> </label> </p>
+		<label for="apellido"> Apellido: <input type="text" id="apellido"> </label> </p>
+		<label for="edad"> edad: <input type="text" id="edad"> </label> </p>
+
+		<select>
+			<option value="naruto" selected>naruto</option>
+			<option value="sasuke"> sasuke</option>
+			<option value="kakashi" disable> kakashi </option>
+		</select>
+
+		<input type="checkbox" value="naruo">
+		<label for="naruto">naruto</label>
+		<input type="checkbox" value="dragón ball z">
+		<label for="dragón ball">Dragon ball z</label>
+		<input type="checkbox" value="onePice">
+		<label for="onepiece">One piece </input>
+
+		<label for="comentario"> comentario </label>
+		<textarea id="comentario"></textarea>
+		
+		<button type="submit"> Enviar </button>
+	
+	</form>
+	
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

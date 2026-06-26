@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservación de Hotel - Hotel Paraíso</title>
+</head>
+<body>
+
+    <h1>Hotel Paraíso</h1>
+    <p>Bienvenido al sistema de reservaciones del Hotel Paraíso.</p>
+
+    <hr>
+
+    <h2>Acerca de nosotros</h2>
+    <p>
+        Somos un hotel ubicado frente al mar que ofrece habitaciones cómodas,
+        áreas recreativas y una experiencia <b>inolvidable</b> para nuestros huéspedes.
+    </p>
+
+    <p>
+        Nuestro objetivo es brindar un servicio <i>de calidad</i> y una atención
+        <u>personalizada</u>.
+    </p>
+
+    <br>
+
+    <h2>Galería</h2>
+
+    <img
+        src="https://images.unsplash.com/photo-1566073771259-6a8506099945"
+        alt="Hotel"
+        width="400"
+    >
+
+    <img
+        src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461"
+        alt="Habitación"
+        width="400"
+    >
+
+    <br><br>
+
+    <h3>Conoce nuestras instalaciones</h3>
+
+    <video width="500" controls>
+        <source src="hotel.mp4" type="video/mp4">
+        Tu navegador no soporta videos.
+    </video>
+
+    <br><br>
+
+    <h3>Mensaje de bienvenida</h3>
+
+    <audio controls>
+        <source src="bienvenida.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+    </audio>
+
+    <hr>
+
+    <h2>Tipos de habitaciones</h2>
+
+    <h3>Habitación Estándar</h3>
+    <p>Ideal para dos personas.</p>
+
+    <h4>Habitación Deluxe</h4>
+    <p>Incluye balcón y vista al mar.</p>
+
+    <h5>Suite Familiar</h5>
+    <p>Capacidad para seis personas.</p>
+
+    <h6>Suite Presidencial</h6>
+    <p>La experiencia más exclusiva del hotel.</p>
+
+    <hr>
+
+    <h2>Formulario de Reservación</h2>
+
+    <form action="#" method="post">
+
+        <h3>Datos personales</h3>
+
+        <label for="nombre">Nombre completo</label>
+        <br>
+        <input type="text" id="nombre" name="nombre">
+        <br><br>
+
+        <label for="correo">Correo electrónico</label>
+        <br>
+        <input type="email" id="correo" name="correo">
+        <br><br>
+
+        <label for="password">Crear contraseña</label>
+        <br>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        <label for="personas">Número de huéspedes</label>
+        <br>
+        <input type="number" id="personas" name="personas" min="1">
+        <br><br>
+
+        <h3>Tipo de habitación</h3>
+
+        <input type="radio" id="estandar" name="habitacion" value="estandar">
+        <label for="estandar">Estándar</label>
+        <br>
+
+        <input type="radio" id="deluxe" name="habitacion" value="deluxe">
+        <label for="deluxe">Deluxe</label>
+        <br>
+
+        <input type="radio" id="familiar" name="habitacion" value="familiar">
+        <label for="familiar">Suite Familiar</label>
+        <br><br>
+
+        <h3>Servicios adicionales</h3>
+
+        <input type="checkbox" id="desayuno" name="desayuno">
+        <label for="desayuno">Desayuno incluido</label>
+        <br>
+
+        <input type="checkbox" id="spa" name="spa">
+        <label for="spa">Acceso al spa</label>
+        <br>
+
+        <input type="checkbox" id="transporte" name="transporte">
+        <label for="transporte">Transporte al aeropuerto</label>
+        <br><br>
+
+        <label for="dias">Duración de la estancia</label>
+        <br>
+        <select id="dias" name="dias">
+            <option value="">Selecciona una opción</option>
+            <option value="1">1 noche</option>
+            <option value="2">2 noches</option>
+            <option value="3">3 noches</option>
+            <option value="7">1 semana</option>
+        </select>
+
+        <br><br>
+
+        <label for="comentarios">Peticiones especiales</label>
+        <br>
+        <textarea
+            id="comentarios"
+            name="comentarios"
+            rows="6"
+            cols="50"
+        ></textarea>
+
+        <br><br>
+
+        <input type="checkbox" id="terminos" name="terminos">
+        <label for="terminos">
+            He leído y acepto los términos y condiciones.
+        </label>
+
+        <br><br>
+
+        <button type="submit">
+            Confirmar reservación
+        </button>
+
+    </form>
+
+    <hr>
+
+    <h2>Contacto</h2>
+
+    <p>
+        Si tienes alguna duda puedes visitar nuestra
+        <a href="https://www.hotelparaiso.com">
+            página oficial
+        </a>
+        o comunicarte con nuestro equipo de atención.
+    </p>
+
+</body>
+</html>

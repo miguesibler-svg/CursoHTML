@@ -1,0 +1,5 @@
+¿Qué son los formularios?
+
+Son uno de los principales puntos de interacción entre un usuario y una pagina web.
+
+Su principal función es la de permitir a los usuarios el ingreso de datos y que la aplicación pueda trabajar con los mismo.

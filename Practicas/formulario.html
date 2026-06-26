@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formualario</title>
+</head>
+    <h1>Textos</h1>
+    <p>Lorem <i>ipsum dolor sit amet consectetur</i> adipisicing elit. <u>Nemo dignissimos voluptate</u> autem laborum maxime quas dicta esse, <b>quo quidem. Itaque nam hic in officia</b>, laborum consectetur at atque obcaecati debitis!</p>
+    <br>
+    <hr>
+
+    <h2>Hipervinculos</h2>
+    <a href="https://www.google.com/"> Google </a>
+    <a href="#fin">Fin de la pagina</a>
+
+    <h3>Multimedia</h3>
+    <img src="img/Imagen.jpg" width="300" height="200">
+    <video src="video/video.mp4" width="300" height="300" controls></video>
+    <audio src="audio/audio.mp3" controls></audio>
+
+    <h4> Formularios</h4>
+    <form action="multimedia.html" method="post">
+        <label for="nombre"> Nombre <input type="text" id="nombre"> </label>
+        <label for="apellido"> Apellido <input type="text" id="apellido"> </label>
+        <label for="edad"> Edad <input type="text" id="edad"></label>
+
+        <select>
+            <option value="minato">minato</option>
+            <option value="hirusen">hirusen</option>
+            <option value="naruto" selected>naruto</option>
+            <option value="shikamaru">shikamaru</option>
+            <option value="tobi rama" disabled>tobi rama</option>
+        </select>
+
+        <input type="checkbox" value="rojo">
+        <label for="rojo">rojo</label> <br>
+        <input type="radio" value="azul">
+        <label for="azul">azul</label> <br>
+        <input type="checkbox" valeu="verde">
+        <label for="verde">Verde</label><br>
+
+        <label for="comentario">Comentario</label>br
+        <textarea id="comentario"></textarea>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+    <p id="fin">fin de la pagina</p>
+
+</html>

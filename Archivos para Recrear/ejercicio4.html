@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica de HTML Estructural</title>
+</head>
+<body>
+
+    <h1>Título Principal del Sitio (H1)</h1>
+    <p>Este es un párrafo introductorio para iniciar la estructura del documento. Aquí puedes practicar la etiqueta de párrafo básica.</p>
+
+    <h2>Sección de Contenido (H2)</h2>
+    <p>Dentro de este párrafo vamos a incluir texto con diferentes estilos físicos o de formato:</p>
+    <p>Texto en <b>negrita utilizando la etiqueta b</b>, texto en <i>cursiva utilizando la etiqueta i</i>, y texto <u>subrayado utilizando la etiqueta u</u>.</p>
+
+    <h3>Subsección de Interés (H3)</h3>
+    <p>Aquí tienes ejemplos de enlaces para practicar la navegación:</p>
+    <p>Esto es un <a href="https://www.google.com" target="_blank">enlace externo a Google</a> que se abre en una pestaña nueva.</p>
+    <p>Esto es un <a href="#formulario-contacto">enlace interno</a> que te llevará directamente al formulario al final de esta página.</p>
+
+    <h5>Subtítulo Secundario (H5)</h5>
+    <p>A continuación se presentan elementos multimedia básicos (Imagen, Audio y Video):</p>
+
+    <div>
+        <img src="https://via.placeholder.com/300x150" alt="Imagen de muestra para práctica">
+    </div>
+
+    <div>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    </div>
+
+    <div>
+        <video width="320" height="240" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+
+    <h6>Nota de Cierre de Bloque (H6)</h6>
+    <p>La siguiente sección contiene un formulario básico para capturar datos de usuario.</p>
+
+    <form id="formulario-contacto" action="#" method="POST">
+        <div>
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="comentarios">Comentarios o Mensaje:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="30"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <button type="submit">Enviar Formulario</button>
+        </div>
+    </form>
+
+</body>
+</html>

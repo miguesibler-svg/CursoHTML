@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Docuemtnos</title>
+</head>
+<body>
+	<h1 id="inicio" >Multimedias</h>
+	<p>es es te es un texto de ejemplo xontien <b>negritas</b> sjfs <i>cursivas</i> adlfjad<u>sljfl</u>
+	<br>
+	<hr>
+
+	<h2> Índice</h2>
+	<p><a href="#vd"> video</a></p>
+	<p><a href="#img"> imagen</a></p>
+	<p><a href="#audio"> audio</a></p>
+	<p><a href="#fm"> ifram </a></p>
+	<br>
+	<hr>
+
+	<h3 id="vd">Video<h3>
+	<video src="video/video.mp4" controls width="300" height="300"></audio>
+	<br>
+	<hr>
+	
+	<h3 id="img">Imagen</h3>
+	<img src="img/imagen.jpg" width="200" height="200">
+	<br>
+	<hr>
+
+	<h3 id="audio">Audio</h3>
+	<audio src="audio/audio.mp3" controls></audio>
+	<br>
+	<hr>
+
+
+	<p><a href="www.glogle.com"> ir a google</a></p>
+	<p><a href="#inicio">regresar al inicio</a></p>	
+	
+</body>

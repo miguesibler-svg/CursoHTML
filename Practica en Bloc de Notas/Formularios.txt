@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formularios</title>
+</head>
+<body>
+	<h1>Infomacion Basica</h1>
+	<form action="">
+		<p><label for="nombre"> Nombre: <input type="text" id="nombre"></label></p>
+		<p><label for="apellido"> Apellido: <input type="text" id="apellido"></label></p>
+		<p><label for="telefono"> Teléfono: <input type="text" id="telefono"></label></p>
+		<p><label for="correo"> Correo: <input type="text" id="correo"></label></p>
+		<p><label for="comentario"> Comentario: <textarea id="comentario"></label></p>
+		<button type="submit">Enviar</button>
+	<form>
+</body>
+
+
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> formulario 2 </title>
+</head>
+<body>
+	<h1> Formulario2 <h1>
+	<form action="">
+		
+		<p> <label for="telefono"> Teléfono: <input type="text" id="telefono"> </label></p>
+		<p> <label for="correo"> Correo: <input type="text" id="correo"> </label></p>
+		<p> <label for="curp"> Curp: <input type="text" id="curp"> </label> </p>
+		<p> <label for="observacion"> Observación <texarea id="observacion"> </label> </p>
+		<button type="submit">Enviar</button>
+	
+	</form>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Formulario 3 </title>
+</head>
+<body>
+	<h1>Formualario 3<h1>
+	<form action="">
+		<p> <label for="curp"> Curp: <input type="text" id="curp"> </label></p>
+		<p> <label for="rfc"> RFC: <input type="text" id="rfc"> </label> </p>
+		<p> <label for="telefono"> Teléfono: <input type="text" id="telefono"> </label> </p>
+		<p> <label for="comentario"> Comentario: <textarea id="comentario"> </label> </p>
+		<button type="submit"> Enviar </button>
+	
+	</form>
+	
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

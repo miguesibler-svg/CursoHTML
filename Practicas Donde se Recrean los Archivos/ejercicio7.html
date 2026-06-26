@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documnetos</title>
+</head>
+<body>
+    <h1>Hotel Paraíso</h1>
+    <p>Bienvenido al sistema de reservaciones del Hotel Paraíso.</p>
+    <hr>
+
+    <h2>Acerca de nosotros</h2>
+    <p>Somos un hotel ubicado frente al mar que ofrece habitaciones cómodas, áreas recreativas y una experiencia <b>inolvidable</b> para nuestros huéspedes.</p>
+    <p>Nuestro objetivo es brindar un servicio<i> de calidad</i> y una atención <u>personalizada</u>.</p>
+    <br>
+
+    <h2>Galería</h2>
+    <img src="img/Imagen.jpg" width="300" height="300">
+    <img src="img/Imagen.jpg" width="300" height="300">
+
+    <h4>Conoce nuestra inslataciones</h4>
+    <video src="video/video.mp4" width="400" height="400" controls></video>
+
+    <h4>Mensjae de bienvenida</h4>
+    <audio src="audio/audio.mp3" controls></audio>
+
+    <hr>
+
+    <h2>Tipos de habitaciones</h2>
+    <h3>Habitacion estandar</h3>
+    <p>ideal para dos perosonas</p>
+    <h4>habiracin dulxe</h4>
+    <p>incluye balcón y vista al mar.</p>
+    <h5>Suite familiar</h5>
+    <p>Capacidad para seis personas</p>
+    <h6>suite presidencial</h6>
+    <p>La experiencia más exclusiva del hotel</p>
+
+    <hr>
+
+    <h2>formulario de reservaciones</h2>
+    <h3>Datos personales</h3>
+    <form action="#" method="post">
+        <label for="nombre">Nombre completo</label><br>
+        <input type="text" id="nombre"><br><br>
+        <label for="correo">correo electronico</label><br>
+        <input type="text" id="correo"><br><br>
+        <label for="password">Crear contraseña</label><br>
+        <input type="password" id="passwprd"><br><br>
+        <label for="nuemro">numero de huspedes</label><br>
+        <input type="number" id="nuemro">
+
+        <h3>tipo de habitacion</h3>
+        <input type="radio" name="habitacion" value="estandar">
+        <label for="estandar">estandar</label><br>
+        <input type="radio" name="habitacion" value="duluxe">
+        <label for="deluxe">deluxe</label><br>
+        <input type="radio" name="habitacion" value="suite">
+        <label for="suite">suite deluxe</label>
+
+        <h3>servicios adicionales</h3>
+        <input type="checkbox" value="desayuno">
+        <label for="estandar">desayuno incluido</label><br>
+        <input type="checkbox" value="spa">
+        <label for="deluxe">acceso al spa</label><br>
+        <input type="checkbox" value="tranporte">
+        <label for="suite">transporte al aeropuesto</label><br><br>
+
+        <label for="duracion">Duración de la estancia</label><br>
+        <select>
+            <option>Selecciona un aopcion</option>
+            <option value="1">1 noche</option>
+            <option value="2">2 noche</option>
+            <option value="3">3 noche</option>
+            <option value="4">4 noche</option>
+        </select><br><br>
+
+        <label>Periciones especioales</label><br>
+        <textarea id="periciones"></textarea><br><br>
+
+        <input type="checkbox" valeu="acepto">
+        <label>he leido y acepto los terminos y condiciones</label><br><br>
+
+        <button type="submit">Confirmar reservacion</button>
+    </form>
+    <hr>
+
+    <h2>Contacto</h2>
+
+    <p>Si tines alguna duda puedes visitar nuestr <a href="https://www.w3schools.com/">pafina oficial</a> o comunicate con nuestro equipo de atencion</p>
+
+</body>
+</html>
