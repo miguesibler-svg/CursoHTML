@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> totodo lo que se</title>
+</head>
+<body>
+	<h1>Textos</h1>
+	<p>este párrafo es para acellos que no se <u>naruto</u> jsflsjf <i>lsjfs</i> lsfjlsfjs <b>slfjlsfj</b>shfshfkshfksh.</p>
+	<hr>
+	<br>
+
+	<h2>Hipervinulos</h2>
+	<p>aquí se encuentran los hipervinculos</p>
+	<a href="https://www.w3schools.com/"> ir a w3school</a>
+	<a href="#final">final</a>
+	
+	<h3>Multimedia</h3>
+	<p>aquí se encuentra los multimedia</p>
+	<video src="video/video.mp4" width="200" height="200" controls></video>
+	<img src="img/img.jpg" width="200" height="200">
+	<audio src="audio/audio.mp3" controls>
+	
+	<h4>formularios</>
+
+	<p>aquí son los formularios</p>
+	
+	<form action="prueba.php" method="post">
+	
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre">
+		<label for="apelldio">Apellido: </label>
+		<input type="text" id="apellido">
+		<label for="edad">Edad: </label>
+		<input type="number" id="edad">
+		<label for="correo">Correo: </label>
+		<input type="email" id="correo">
+		<label for="password" id="contrasena"> Contraseña: </label>
+		<input type="password" id="contrasena">
+
+		<select>
+			<option value="tacos" selected>tacos</option>
+			<option value="tortas">tortas</option>
+			<option value="quesadillas" disabled>Quesadillas</option>
+			<option value="pambazos">pambazoa</option>
+		</select>  
+
+		<input type="checkbox" id="naruto">
+		<label for="naruto">naruto</label>
+		<input type="checkbox" id="dragón_ball">
+		<label for="dragon_ball">Dragon BAll Z</label>
+		<input type="checkbox" id="one_piece">
+		<label for="one_piece">One Piece</label>
+		
+		<input type="radio" name="estado">
+		<label for="verdadero"> Verdadero </label>
+		<input type="radio" name="estado">
+		<label for="falso"> Falso</falso>
+		
+		<label for="comentario">
+		<textarea id="comentario"></textarea>
+		
+		<button type="submit">Enviar</button>
+	</form>
+		<hr>
+		<br>
+	
+		<h5>comentarios</h5>
+		<p><u><i><b>este es el casi final</b></i></u></p>
+		<hr>
+		<br>
+
+		<h6 id="final">ESte es el final<h6>
+		<p>fina de la pagina de prueba</p>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

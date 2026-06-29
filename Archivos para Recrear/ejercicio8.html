@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TechStore - Compra de Computadoras</title>
+</head>
+<body>
+
+    <header>
+        <h1>TechStore</h1>
+        <p>Tu tienda de tecnología en línea.</p>
+
+        <a href="#">Inicio</a> |
+        <a href="#">Productos</a> |
+        <a href="#">Ofertas</a> |
+        <a href="#">Contacto</a>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <h2>Laptops destacadas</h2>
+
+        <article>
+
+            <h3>Laptop Gamer Pro X15</h3>
+
+            <img
+                src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853"
+                alt="Laptop Gamer"
+                width="300"
+            >
+
+            <p>
+                La <b>Pro X15</b> es perfecta para videojuegos y edición de video.
+                Cuenta con un procesador de última generación y una tarjeta gráfica dedicada.
+            </p>
+
+            <p>
+                Precio: <b>$24,999 MXN</b>
+            </p>
+
+            <a href="#">Ver detalles</a>
+
+        </article>
+
+        <br>
+
+        <article>
+
+            <h3>Laptop UltraBook Air</h3>
+
+            <img
+                src="https://images.unsplash.com/photo-1517336714739-489689fd1ca8"
+                alt="Laptop Ultrabook"
+                width="300"
+            >
+
+            <p>
+                Una computadora <i>ligera y elegante</i>, ideal para estudiantes y profesionales.
+            </p>
+
+            <p>
+                Precio: <b>$18,499 MXN</b>
+            </p>
+
+            <a href="#">Ver detalles</a>
+
+        </article>
+
+        <hr>
+
+        <section>
+
+            <h2>Video de presentación</h2>
+
+            <video width="500" controls>
+                <source src="productos.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+
+            <h3>Escucha nuestro podcast tecnológico</h3>
+
+            <audio controls>
+                <source src="podcast.mp3" type="audio/mpeg">
+                Tu navegador no soporta audio.
+            </audio>
+
+        </section>
+
+        <hr>
+
+        <section>
+
+            <h2>Realiza tu pedido</h2>
+
+            <form action="#" method="post">
+
+                <h3>Información personal</h3>
+
+                <label for="nombre">Nombre completo</label>
+                <br>
+                <input type="text" id="nombre" name="nombre">
+                <br><br>
+
+                <label for="correo">Correo electrónico</label>
+                <br>
+                <input type="email" id="correo" name="correo">
+                <br><br>
+
+                <label for="password">Crea una contraseña</label>
+                <br>
+                <input type="password" id="password" name="password">
+                <br><br>
+
+                <label for="edad">Edad</label>
+                <br>
+                <input type="number" id="edad" name="edad">
+                <br><br>
+
+                <h3>Selecciona un producto</h3>
+
+                <select name="producto" id="producto">
+                    <option value="">Seleccione una opción</option>
+                    <option value="x15">Laptop Gamer Pro X15</option>
+                    <option value="air">Laptop UltraBook Air</option>
+                    <option value="monitor">Monitor 27 pulgadas</option>
+                    <option value="teclado">Teclado Mecánico</option>
+                </select>
+
+                <br><br>
+
+                <h3>Garantía adicional</h3>
+
+                <input type="radio" id="si" name="garantia" value="si">
+                <label for="si">Sí, agregar garantía.</label>
+
+                <br>
+
+                <input type="radio" id="no" name="garantia" value="no">
+                <label for="no">No, gracias.</label>
+
+                <br><br>
+
+                <h3>Servicios extra</h3>
+
+                <input type="checkbox" id="envio" name="envio">
+                <label for="envio">Envío express</label>
+                <br>
+
+                <input type="checkbox" id="seguro" name="seguro">
+                <label for="seguro">Seguro contra daños</label>
+                <br>
+
+                <input type="checkbox" id="armado" name="armado">
+                <label for="armado">Configuración inicial del equipo</label>
+
+                <br><br>
+
+                <label for="comentarios">
+                    Instrucciones adicionales para el pedido
+                </label>
+
+                <br>
+
+                <textarea
+                    id="comentarios"
+                    name="comentarios"
+                    rows="6"
+                    cols="60"
+                ></textarea>
+
+                <br><br>
+
+                <input type="checkbox" id="terminos" name="terminos">
+                <label for="terminos">
+                    He leído y acepto los términos y condiciones.
+                </label>
+
+                <br><br>
+
+                <button type="submit">
+                    Finalizar compra
+                </button>
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <section>
+
+            <h2>Preguntas frecuentes</h2>
+
+            <h3>¿Cuánto tarda el envío?</h3>
+            <p>De 2 a 5 días hábiles.</p>
+
+            <h4>¿Puedo devolver mi producto?</h4>
+            <p>Sí, tienes 30 días para solicitar una devolución.</p>
+
+            <h5>¿Aceptan pagos a meses sin intereses?</h5>
+            <p>Sí, con tarjetas participantes.</p>
+
+            <h6>¿Tienen tiendas físicas?</h6>
+            <p>Actualmente solo realizamos ventas en línea.</p>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>
+            © 2026 TechStore.
+            <a href="#">Política de privacidad</a> |
+            <a href="#">Términos y condiciones</a>
+        </p>
+    </footer>
+
+</body>
+</html>

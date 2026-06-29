@@ -37,5 +37,9 @@
 
 	<p><a href="www.glogle.com"> ir a google</a></p>
 	<p><a href="#inicio">regresar al inicio</a></p>	
+
+
+	
+
 	
 </body>
