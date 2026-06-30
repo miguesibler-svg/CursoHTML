@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil de Usuario - Mi Sitio Web</title>
+</head>
+<body>
+
+    <h1>Perfil de Usuario</h1>
+    <p>Bienvenido a la página de perfil de un usuario registrado.</p>
+
+    <hr>
+
+    <h2>Información Personal</h2>
+    <p>
+        Mi nombre es <b>Miguel Ángel</b> y me gusta aprender
+        <i>desarrollo web</i>. Actualmente estoy practicando
+        <u>HTML puro</u>.
+    </p>
+
+    <br>
+
+    <h3>Fotografía</h3>
+    <img src="imagenes/perfil.jpg" alt="Foto de perfil" width="200">
+
+    <h3>Video de Presentación</h3>
+    <video controls width="400">
+        <source src="videos/presentacion.mp4" type="video/mp4">
+        Tu navegador no soporta videos.
+    </video>
+
+    <h3>Mensaje de Voz</h3>
+    <audio controls>
+        <source src="audio/saludo.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+    </audio>
+
+    <hr>
+
+    <h2>Datos Académicos</h2>
+
+    <h3>Educación</h3>
+    <p>Actualmente estudio programación y desarrollo de aplicaciones web.</p>
+
+    <h4>Materias Favoritas</h4>
+    <p>HTML, Bases de Datos y Programación Orientada a Objetos.</p>
+
+    <h5>Objetivo Actual</h5>
+    <p>Construir sitios web completos utilizando únicamente HTML.</p>
+
+    <h6>Nota</h6>
+    <p>Esta página es un ejemplo para practicar etiquetas básicas.</p>
+
+    <hr>
+
+    <h2>Enlaces de Interés</h2>
+    <p>
+        Visita el sitio oficial de
+        <a href="https://developer.mozilla.org" target="_blank">
+            MDN Web Docs
+        </a>
+        para aprender más sobre HTML.
+    </p>
+
+    <hr>
+
+    <h2>Formulario de Registro</h2>
+
+    <form action="registro.php" method="post">
+
+        <p>
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre">
+        </p>
+
+        <p>
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo">
+        </p>
+
+        <p>
+            <label for="contrasena">Contraseña:</label><br>
+            <input type="password" id="contrasena" name="contrasena">
+        </p>
+
+        <p>
+            <label for="edad">Edad:</label><br>
+            <input type="number" id="edad" name="edad">
+        </p>
+
+        <p>
+            <label for="fecha">Fecha de nacimiento:</label><br>
+            <input type="date" id="fecha" name="fecha">
+        </p>
+
+        <p>
+            <label>Intereses:</label><br>
+            <input type="checkbox" id="html" name="intereses" value="html">
+            <label for="html">HTML</label><br>
+
+            <input type="checkbox" id="css" name="intereses" value="css">
+            <label for="css">CSS</label><br>
+
+            <input type="checkbox" id="js" name="intereses" value="js">
+            <label for="js">JavaScript</label>
+        </p>
+
+        <p>
+            <label>Género:</label><br>
+
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label><br>
+
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Femenino</label><br>
+
+            <input type="radio" id="otro" name="genero" value="otro">
+            <label for="otro">Prefiero no decirlo</label>
+        </p>
+
+        <p>
+            <label for="ciudad">Ciudad:</label><br>
+            <select id="ciudad" name="ciudad">
+                <option disabled>Selecciona una ciudad</option>
+                <option selected>Ciudad de México</option>
+                <option>Guadalajara</option>
+                <option>Monterrey</option>
+                <option>Puebla</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="comentarios">Comentarios:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="5" cols="40"></textarea>
+        </p>
+
+        <button type="submit">Enviar Registro</button>
+
+    </form>
+
+    <hr>
+
+    <h2>Historial de Cursos</h2>
+
+    <table border="1">
+        <tr>
+            <th>Curso</th>
+            <th>Duración</th>
+            <th>Estado</th>
+        </tr>
+        <tr>
+            <td>Introducción a HTML</td>
+            <td>4 semanas</td>
+            <td>Finalizado</td>
+        </tr>
+        <tr>
+            <td>Fundamentos de CSS</td>
+            <td>6 semanas</td>
+            <td>En proceso</td>
+        </tr>
+        <tr>
+            <td>JavaScript Básico</td>
+            <td>8 semanas</td>
+            <td>Pendiente</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <p>
+        <b>Gracias</b> por visitar esta página de práctica.
+        Sigue aprendiendo y construyendo proyectos con
+        <i>HTML</i>.
+    </p>
+
+</body>
+</html>

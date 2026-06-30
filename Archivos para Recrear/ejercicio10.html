@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal de Cursos Online - DevAcademy</title>
+</head>
+<body>
+
+    <h1>DevAcademy</h1>
+    <p>Aprende programación y tecnología desde cualquier lugar.</p>
+
+    <hr>
+
+    <h2>Panel del Estudiante</h2>
+
+    <p>
+        Bienvenido de nuevo, <b>Miguel Ángel Gutiérrez</b>.
+        Tu suscripción <i>Premium</i> está activa hasta diciembre.
+        Recuerda completar tus actividades para obtener tu
+        <u>certificado oficial</u>.
+    </p>
+
+    <br>
+
+    <h2>Curso Destacado</h2>
+
+    <h3>Desarrollo Web Completo</h3>
+
+    <img src="imagenes/desarrollo-web.jpg"
+         alt="Curso de Desarrollo Web"
+         width="500">
+
+    <p>
+        Aprende HTML, CSS, JavaScript y bases de datos mediante proyectos reales.
+    </p>
+
+    <video controls width="500">
+        <source src="videos/presentacion-curso.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento video.
+    </video>
+
+    <br>
+
+    <audio controls>
+        <source src="audio/bienvenida.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento audio.
+    </audio>
+
+    <hr>
+
+    <h2>Ruta de Aprendizaje</h2>
+
+    <h3>Nivel Principiante</h3>
+    <p>Fundamentos de programación y lógica computacional.</p>
+
+    <h4>Nivel Intermedio</h4>
+    <p>Desarrollo web y manejo de bases de datos.</p>
+
+    <h5>Nivel Avanzado</h5>
+    <p>Creación de aplicaciones completas y despliegue.</p>
+
+    <h6>Última actualización: junio de 2026.</h6>
+
+    <hr>
+
+    <h2>Enlaces Útiles</h2>
+
+    <p>
+        Consulta la
+        <a href="calendario.html">agenda de clases</a>
+        para conocer las próximas sesiones.
+    </p>
+
+    <p>
+        Descarga la
+        <a href="guia-estudiante.pdf">guía del estudiante</a>
+        antes de comenzar tus cursos.
+    </p>
+
+    <hr>
+
+    <h2>Inscripción a un Nuevo Curso</h2>
+
+    <form action="inscripcion.php" method="post">
+
+        <h3>Datos Personales</h3>
+
+        <p>
+            <label for="nombre">Nombre completo</label><br>
+            <input type="text" id="nombre" name="nombre">
+        </p>
+
+        <p>
+            <label for="correo">Correo electrónico</label><br>
+            <input type="email" id="correo" name="correo">
+        </p>
+
+        <p>
+            <label for="clave">Contraseña</label><br>
+            <input type="password" id="clave" name="clave">
+        </p>
+
+        <p>
+            <label for="edad">Edad</label><br>
+            <input type="number" id="edad" name="edad">
+        </p>
+
+        <p>
+            <label for="fecha">Fecha de nacimiento</label><br>
+            <input type="date" id="fecha" name="fecha">
+        </p>
+
+        <h3>Preferencias de Estudio</h3>
+
+        <p>
+            <label>Áreas de interés</label><br>
+
+            <input type="checkbox" id="frontend" name="intereses">
+            <label for="frontend">Frontend</label><br>
+
+            <input type="checkbox" id="backend" name="intereses">
+            <label for="backend">Backend</label><br>
+
+            <input type="checkbox" id="movil" name="intereses">
+            <label for="movil">Desarrollo móvil</label><br>
+
+            <input type="checkbox" id="datos" name="intereses">
+            <label for="datos">Bases de datos</label>
+        </p>
+
+        <p>
+            <label>Modalidad</label><br>
+
+            <input type="radio" id="presencial" name="modalidad">
+            <label for="presencial">Presencial</label><br>
+
+            <input type="radio" id="virtual" name="modalidad">
+            <label for="virtual">Virtual</label><br>
+
+            <input type="radio" id="hibrida" name="modalidad">
+            <label for="hibrida">Híbrida</label>
+        </p>
+
+        <p>
+            <label for="curso">Curso a inscribir</label><br>
+            <select id="curso" name="curso">
+                <option disabled>
+                    Selecciona un curso
+                </option>
+
+                <option>
+                    Introducción a la Programación
+                </option>
+
+                <option selected>
+                    Desarrollo Web Completo
+                </option>
+
+                <option>
+                    Bases de Datos SQL
+                </option>
+
+                <option>
+                    Desarrollo con Java
+                </option>
+            </select>
+        </p>
+
+        <p>
+            <label for="comentarios">
+                ¿Por qué deseas tomar este curso?
+            </label><br>
+
+            <textarea
+                id="comentarios"
+                name="comentarios"
+                rows="6"
+                cols="50">
+            </textarea>
+        </p>
+
+        <button type="submit">
+            Finalizar Inscripción
+        </button>
+
+    </form>
+
+    <hr>
+
+    <h2>Mis Cursos Activos</h2>
+
+    <table border="1">
+
+        <tr>
+            <th>Curso</th>
+            <th>Instructor</th>
+            <th>Progreso</th>
+            <th>Estado</th>
+        </tr>
+
+        <tr>
+            <td>HTML y CSS</td>
+            <td>Ana López</td>
+            <td>100%</td>
+            <td>Finalizado</td>
+        </tr>
+
+        <tr>
+            <td>JavaScript Básico</td>
+            <td>Carlos Martínez</td>
+            <td>65%</td>
+            <td>En progreso</td>
+        </tr>
+
+        <tr>
+            <td>Bases de Datos</td>
+            <td>Laura Hernández</td>
+            <td>20%</td>
+            <td>En progreso</td>
+        </tr>
+
+        <tr>
+            <td>Desarrollo Backend</td>
+            <td>Pedro García</td>
+            <td>0%</td>
+            <td>Pendiente</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <h2>Calendario de Actividades</h2>
+
+    <table border="1">
+
+        <tr>
+            <th>Fecha</th>
+            <th>Actividad</th>
+            <th>Hora</th>
+        </tr>
+
+        <tr>
+            <td>10/07/2026</td>
+            <td>Clase en vivo de HTML</td>
+            <td>18:00</td>
+        </tr>
+
+        <tr>
+            <td>15/07/2026</td>
+            <td>Entrega del proyecto final</td>
+            <td>23:59</td>
+        </tr>
+
+        <tr>
+            <td>20/07/2026</td>
+            <td>Examen de JavaScript</td>
+            <td>17:00</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <p>
+        ¿Necesitas ayuda?
+        Contacta al equipo de soporte mediante el
+        <a href="contacto.html">centro de atención</a>.
+    </p>
+
+    <p>
+        <b>DevAcademy</b> agradece tu confianza y te desea mucho éxito en tu
+        camino de aprendizaje.
+    </p>
+
+</body>
+</html>

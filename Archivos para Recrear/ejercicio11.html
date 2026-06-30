@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog de Viajes - Mi Aventura en México</title>
+</head>
+<body>
+
+    <h1>Blog de Viajes</h1>
+    <p>Bienvenido a mi blog personal donde comparto mis experiencias viajando por diferentes lugares de México.</p>
+
+    <hr>
+
+    <h2>Último viaje: Cancún</h2>
+    <p>
+        Durante mis vacaciones visité <b>Cancún</b> y descubrí lugares increíbles.
+        <br>
+        También probé la gastronomía local y conocí nuevas personas.
+    </p>
+
+    <img src="playa-cancun.jpg" alt="Playa de Cancún" width="400">
+
+    <h3>Lugares visitados</h3>
+    <ul>
+        <li>Playa Delfines</li>
+        <li>Isla Mujeres</li>
+        <li>Zona Hotelera</li>
+    </ul>
+
+    <h3>Actividades favoritas</h3>
+    <ol>
+        <li>Nadar en el mar.</li>
+        <li>Tomar fotografías.</li>
+        <li>Probar comida típica.</li>
+    </ol>
+
+    <h4>Experiencia gastronómica</h4>
+    <p>
+        Probé unos tacos de pescado que estaban <b>deliciosos</b>.
+        Además, aprendí que la cocina local tiene una gran variedad de sabores.
+    </p>
+
+    <p>
+        Algunas palabras que describen el viaje:
+        <i>emocionante</i>,
+        <u>inolvidable</u>
+        y divertido.
+    </p>
+
+    <h5>Video del viaje</h5>
+    <video controls width="400">
+        <source src="cancun.mp4" type="video/mp4">
+        Tu navegador no soporta videos.
+    </video>
+
+    <h5>Sonidos de la playa</h5>
+    <audio controls>
+        <source src="olas.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+    </audio>
+
+    <h6>Más información</h6>
+    <p>
+        Puedes encontrar más detalles en
+        <a href="https://www.visitmexico.com" target="_blank">
+            Visit México
+        </a>.
+    </p>
+
+    <hr>
+
+    <h2>Próximos destinos</h2>
+
+    <table border="1">
+        <tr>
+            <th>Destino</th>
+            <th>Mes</th>
+            <th>Presupuesto</th>
+        </tr>
+        <tr>
+            <td>Oaxaca</td>
+            <td>Agosto</td>
+            <td>$5,000</td>
+        </tr>
+        <tr>
+            <td>Chiapas</td>
+            <td>Octubre</td>
+            <td>$6,500</td>
+        </tr>
+        <tr>
+            <td>Yucatán</td>
+            <td>Diciembre</td>
+            <td>$7,000</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Suscríbete al blog</h2>
+
+    <form action="#" method="post">
+
+        <p>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre">
+        </p>
+
+        <p>
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo">
+        </p>
+
+        <p>
+            <label for="edad">Edad:</label><br>
+            <input type="number" id="edad" name="edad">
+        </p>
+
+        <p>
+            <label for="fecha">Fecha de nacimiento:</label><br>
+            <input type="date" id="fecha" name="fecha">
+        </p>
+
+        <p>
+            <label for="clave">Contraseña:</label><br>
+            <input type="password" id="clave" name="clave">
+        </p>
+
+        <p>
+            ¿Qué tipo de viajes prefieres?
+            <br>
+            <input type="checkbox" id="playa" name="preferencia">
+            <label for="playa">Playa</label>
+
+            <input type="checkbox" id="montana" name="preferencia">
+            <label for="montana">Montaña</label>
+
+            <input type="checkbox" id="ciudad" name="preferencia">
+            <label for="ciudad">Ciudad</label>
+        </p>
+
+        <p>
+            Género:
+            <br>
+
+            <input type="radio" id="hombre" name="genero">
+            <label for="hombre">Hombre</label>
+
+            <input type="radio" id="mujer" name="genero">
+            <label for="mujer">Mujer</label>
+        </p>
+
+        <p>
+            <label for="pais">País favorito para viajar:</label><br>
+            <select id="pais" name="pais">
+                <option selected>México</option>
+                <option>Canadá</option>
+                <option>España</option>
+                <option disabled>Japón (Próximamente)</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="comentarios">Cuéntanos tu experiencia de viaje:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="5" cols="40"></textarea>
+        </p>
+
+        <button type="submit">Enviar información</button>
+
+    </form>
+
+</body>
+</html>

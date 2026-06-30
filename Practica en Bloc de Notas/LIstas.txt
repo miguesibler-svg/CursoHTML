@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> LIstas </title>	
+</head>
+<body>
+	
+	<h1>Anime</h1>
+	<ol>
+		<li> naruto</li>
+		<li>Dragon Ball Z</li>
+		<li>pokemon</li>
+		<li>One Piece</li>
+	</ol>
+
+	<h2>Artistas</h2>
+	<ul>
+		<li>shakira</li>
+		<li>Porta</li>
+		<li>juand grabriel</li>
+		<li> naruto </li>
+	</ul>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" name="width=device-width, initial-scale=1.0">
+	<title> listas</title>
+</head>
+<body>
+
+	<h2>Mi Música Favorita</h2>
+
+	<ol>
+		
+		<li>mordidita</li>
+		<li>can help</li>
+		<li>codin</li>
+	</ol>
+
+
+	<h2> animes favoritos</li>
+
+	<ul>
+		<li>naruto</li>
+		<li>Dragon ball z</li>
+		<li>blaybley</li>
+	<ul>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
