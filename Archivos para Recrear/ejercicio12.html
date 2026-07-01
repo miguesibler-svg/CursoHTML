@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Reservas - Hotel Paraíso</title>
+</head>
+<body>
+
+    <h1>Hotel Paraíso</h1>
+    <p>Bienvenido al sistema de reservas del hotel.</p>
+
+    <hr>
+
+    <h2>Acerca de Nosotros</h2>
+    <p>
+        El <b>Hotel Paraíso</b> es un hotel familiar ubicado cerca de la playa.
+        Nuestro objetivo es ofrecer una experiencia <i>cómoda</i> y
+        <u>memorable</u> para todos nuestros huéspedes.
+    </p>
+
+    <img src="hotel.jpg" alt="Fachada del Hotel Paraíso" width="500">
+
+    <h3>Servicios incluidos</h3>
+    <ul>
+        <li>WiFi gratuito</li>
+        <li>Desayuno buffet</li>
+        <li>Piscina</li>
+        <li>Estacionamiento</li>
+        <li>Servicio a la habitación</li>
+    </ul>
+
+    <h3>Pasos para reservar</h3>
+    <ol>
+        <li>Seleccionar las fechas.</li>
+        <li>Elegir el tipo de habitación.</li>
+        <li>Ingresar los datos personales.</li>
+        <li>Confirmar la reserva.</li>
+    </ol>
+
+    <hr>
+
+    <h2>Galería Multimedia</h2>
+
+    <h3>Video de las instalaciones</h3>
+    <video controls width="500">
+        <source src="hotel-tour.mp4" type="video/mp4">
+        Tu navegador no soporta videos.
+    </video>
+
+    <h3>Escucha el ambiente del hotel</h3>
+    <audio controls>
+        <source src="ambiente.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+    </audio>
+
+    <p>
+        También puedes visitar nuestra página oficial en
+        <a href="https://www.hotelparaiso.com">
+            Hotel Paraíso
+        </a>.
+    </p>
+
+    <hr>
+
+    <h2>Tipos de Habitaciones</h2>
+
+    <table border="1">
+        <tr>
+            <th>Habitación</th>
+            <th>Capacidad</th>
+            <th>Precio por noche</th>
+            <th>Incluye</th>
+        </tr>
+        <tr>
+            <td>Estándar</td>
+            <td>2 personas</td>
+            <td>$1,200</td>
+            <td>Desayuno</td>
+        </tr>
+        <tr>
+            <td>Familiar</td>
+            <td>4 personas</td>
+            <td>$2,100</td>
+            <td>Desayuno y piscina</td>
+        </tr>
+        <tr>
+            <td>Suite</td>
+            <td>2 personas</td>
+            <td>$3,500</td>
+            <td>Todo incluido</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Formulario de Reserva</h2>
+
+    <form action="#" method="post">
+
+        <h3>Datos del huésped</h3>
+
+        <p>
+            <label for="nombre">Nombre completo</label><br>
+            <input type="text" id="nombre" name="nombre">
+        </p>
+
+        <p>
+            <label for="correo">Correo electrónico</label><br>
+            <input type="email" id="correo" name="correo">
+        </p>
+
+        <p>
+            <label for="password">Crear contraseña</label><br>
+            <input type="password" id="password" name="password">
+        </p>
+
+        <p>
+            <label for="edad">Edad</label><br>
+            <input type="number" id="edad" name="edad">
+        </p>
+
+        <p>
+            <label for="llegada">Fecha de llegada</label><br>
+            <input type="date" id="llegada" name="llegada">
+        </p>
+
+        <p>
+            <label for="salida">Fecha de salida</label><br>
+            <input type="date" id="salida" name="salida">
+        </p>
+
+        <h3>Tipo de habitación</h3>
+
+        <input type="radio" id="estandar" name="habitacion">
+        <label for="estandar">Estándar</label>
+        <br>
+
+        <input type="radio" id="familiar" name="habitacion">
+        <label for="familiar">Familiar</label>
+        <br>
+
+        <input type="radio" id="suite" name="habitacion">
+        <label for="suite">Suite</label>
+
+        <h3>Servicios adicionales</h3>
+
+        <input type="checkbox" id="spa" name="servicios">
+        <label for="spa">Spa</label>
+        <br>
+
+        <input type="checkbox" id="transporte" name="servicios">
+        <label for="transporte">Transporte al aeropuerto</label>
+        <br>
+
+        <input type="checkbox" id="mascota" name="servicios">
+        <label for="mascota">Hospedaje para mascotas</label>
+
+        <h3>País de procedencia</h3>
+
+        <select name="pais" id="pais">
+            <option selected>México</option>
+            <option>Estados Unidos</option>
+            <option>Argentina</option>
+            <option>España</option>
+            <option disabled>Brasil (Sin disponibilidad)</option>
+        </select>
+
+        <h3>Solicitud especial</h3>
+
+        <textarea
+            id="comentarios"
+            name="comentarios"
+            rows="6"
+            cols="50"
+            placeholder="Escribe aquí cualquier solicitud especial..."
+        ></textarea>
+
+        <br><br>
+
+        <button type="submit">Confirmar Reserva</button>
+
+    </form>
+
+    <hr>
+
+    <h2>Preguntas Frecuentes</h2>
+
+    <h3>¿A qué hora es el check-in?</h3>
+    <p>El check-in comienza a las 3:00 PM.</p>
+
+    <h4>¿Se permiten mascotas?</h4>
+    <p>Sí, con un costo adicional.</p>
+
+    <h5>¿Hay estacionamiento?</h5>
+    <p>Sí, es gratuito para todos los huéspedes.</p>
+
+    <h6>¿Dónde estamos ubicados?</h6>
+    <p>
+        Nos encontramos a 10 minutos de la playa principal.
+        <br>
+        Consulta la ubicación en nuestro sitio web.
+    </p>
+
+</body>
+</html>

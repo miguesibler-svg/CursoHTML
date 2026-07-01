@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> comentarios</tiTle>
+</head>
+<body>
+	<!-- estos son encabezados-->
+
+	<h1>tema1 </h1>
+	<h2>tema2 </h2>
+	<h3>tema3 </h3>
+	<h4>tema4 </h4>
+	<h5>tema5 </h5>
+	<h6>tema6 </h6>
+
+	<!-- esto son manejo de textos-->
+	
+	<p>fsjflsjlfjslflsfjslfjslfjsl<b>lsfslf</b>l slfjslfj<i>lsjflsjf</i>jflsjfl<u>lsjfslfj</u>lsjf </p>
+
+	<br>
+	<hr>
+
+
+	<!-- esto son hipervinculos-->
+
+	<a href="https://www.google.com">google</a>
+	<a href="#">vinculo en la misma página</a>
+
+
+	<!-- esto son multimedia -->
+
+	<img src="img.jpg" width="200" height="200">
+	<video src="video.mp4" width="200" height="200" controls></video>
+	<audio src="audio.mp3" controls>
+
+	<!-- esto es tablas -->
+	
+	<table>
+	<tr>
+		<th>Nombre</th>
+		<th>Apellido</th>
+	</tr>
+	<tr>
+		<td>Miguel</td>
+		<td>Barragan</td>
+	</tr>
+	</table>
+
+	<!-- esto son listas-->
+
+	<ol>
+		<li>naruto</li>
+		<li>dragón ball</li>
+	</ol>
+
+
+	<ul>
+		<li>tacos</ul>
+		<li>tortas</ul>
+	</ul>
+
+	<!-- esto es formularios-->
+
+	<form action="incripcion.php" method="post">
+
+		<label for="nombre">Nombre</label>
+		<input type="text id="nombre">
+		<input type="email" id="correo">
+		<input type="password" id="contrasena">
+		<input type="number" id="edad">
+		<input type="date" id="edad">
+
+		<select>
+			<option value="tacos" selected>tacos</option>
+			<option value="pizzas" disabled>pizzas</option>
+			<option value="tortas">tortas>
+		</select>
+
+		<input type="radio" name="genero" value="masculino">
+		<input type="radio" name="genero" value="femenino">
+
+		<input type="checkbox" id="1" value="1">
+		<input type="checkbox" id="2" value="2">
+
+		<textarea id="comentario"></textarea>
+
+		<button type="submit">Enviar</button>
+		
+	</form>
+
+</body>
+</html>
