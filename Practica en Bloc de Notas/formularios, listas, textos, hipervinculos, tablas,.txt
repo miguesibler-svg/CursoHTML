@@ -1,0 +1,110 @@
+<!DOCTYPE HTML >
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Todo lo que se</title>
+</head>
+<body>
+	<h1>tema 1</h1>
+	<h2>tema 2</h2>
+	<h3>tema 3</h3>
+	<h4>tema 4</h4>
+	<h5>tema 5</h5>
+	<h6>tema 6</h6>
+
+	<br>
+	<hr>
+
+	<p>slfj <i>slfjsl</i> fjsl <u>fjslfj</u> lsfjlsfjlsjfls <b>jflsjfls</b>jjjjjjjjjjjjjjjjj</p>
+
+	<br>
+	<hr>
+
+	<a href="https://www.google.com">Google</a>
+	<a href="#final">Final de la Página</a>
+
+	<br>
+	<hr>
+
+	<img src="img.jpg" width="200" height="200">
+	<video src="video.mp4" width="200" height="200" controls>
+	<audio src="audio.mp3" controls>
+
+
+	<br>
+	<hr>
+
+	<form action="#ls.php" method="post">
+	
+	<label for="nombre">NOmbre</label>
+
+	<input type="text" id="nombre">
+	<input type="email" id="correo">
+	<input type="password" id="contraseña">
+	<input type="number" id="edad">
+	<input type="date" id="fecha">
+	
+
+	<select>
+
+		<option value="tacos" selected>tacos</option>
+		<option value="quesadillas"> Quesadillas</option>
+		<option value="tortas" disabled> Tortas</option>
+	<select>
+
+
+	<input type="checkbox" value="mexico">
+	<input type="checkbox" value="canada">
+	
+	<input type="radio" name="genero" value="mujer">
+	<input type="radio" name="genero" value="hombre">
+
+	<textarea id="comentario"></textarea>
+
+	<button type="submit">Enviar</button>
+
+
+	</form>
+
+
+	<br>
+	<hr>
+
+	
+	<table>
+		
+		<tr>
+			<th>nombre</th>
+			<th>apellido</th
+	
+		</tr>
+		<tr>
+			<td>MIguel</td>
+			<td>barragan</td>
+		</tr>
+		<tr>
+			<td>luis</td>
+			<td>Gonzales</td>
+		</tr>
+
+	</table>
+
+
+	
+	<ol>
+		<li>naruto</li>
+		<li>Dragon ball</li>
+		<li>pokemon</li>
+	
+	</ol>
+
+	<ul> 
+		<li>tacos</li>
+		<li>quesadillas</li>
+		<li>pambazos</li>
+	</ul>
+
+
+</body>
+</html>
