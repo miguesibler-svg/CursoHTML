@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>todo  mi contenido</title>
+</head>
+<body>
+	<!-- encabezados-->
+
+	<h1>tema 1 </h1>
+	<h2>tema 2 </h2>
+	<h3>tema 3 </h3>
+	<h4>tema 4 </h4>
+	<h5>tema 5 </h5>
+	<h6>tema 6 </h6>
+
+	<!-- manejo de textos-->
+
+	<p>sljflk <b>sjfslkjlks</b> sjflsjflsjfl <i>lsjflsjf</i> sjflsfjsl <u> slfjslfj g</u> 
+	   sjflsjflsjflksjf <span>sljflsjf</span>sljslfjsl</p>
+
+	<br>
+	<hr>
+
+	<!-- multimedia-->
+
+	<img src="img.jpg" width="200" height="200">
+	<video src="video.mp4" width="400" height="300" controls>
+	<audio src="audio.mp3" controls>
+
+
+	<!-- hipervinculos-->
+
+	<a href="https://www.google.com" target="_blanck">google</a>
+	<a href="#final">ir final de la página</a>
+
+	<!-- tablas-->
+
+	<tr>
+		<th>nombre</th>
+		<th>apelldio</th>
+	</tr>
+	<tr>
+		<td>miguel</td>
+		<td>Barragan</td>
+	</tr>
+
+	<!-- listas -->
+
+	<ol>
+		<li>naruto</li>
+		<li>dragón ball</li>
+	</ol>
+
+	<ul>
+		<li>tacos</li>
+		<li>tortas</li>
+	<ul>
+
+	<!--formularios>
+
+	<form action="control.php" method="post">
+
+		<label for="nombre">nombre:</label>
+		<input type="text" id="nombre">
+		<input type="email" id="correo">
+		<input type="password" id="contrasena">
+		<input type="date" id="fecha">
+		<input type="number" id="edad">
+
+
+		<select>
+
+			<option value="tacos">tacos</option>
+			<option value="tortas" selected>tortas</option>
+			<option value="quesadillas" disabled>quesadillas</option>
+	
+		</select>
+
+		<input type="checkbox" value="tacos" id="comid" name="comida">
+		<input type="checkbox" value="quesadilla" id="comid" name="comida">
+		
+		<input type="radio" value="mujer" name="genero">
+		<input type="radio" value="hombre" name="genero">
+		
+		<textarea id="comentario"></textarea>
+
+		<button type="submit">enviar</button>
+	</form>
+
+
+	<!-- pie de página-->
+
+	<footer>
+
+		<p>creado por sibler</p>
+	</footer>
+
+	
+</body>

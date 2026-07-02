@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo lo que se</title>
+</head>
+<body>
+    <!-- Encabezados -->
+     <h1>tema 1</h1>
+     <h2>tema 2</h2>
+     <h3>tema 3</h3>
+     <h4>tema 4</h4>
+     <h5>tema 5</h5>
+     <h6>tema 6</h6>
+
+    <!-- manejo de textos -->
+    <p>Lorem <b>ipsum dolor</b> sit, amet <i>consectetur</i> adipisicing <u>elit</u>. Fugiat similique aperiam quas <span>nam quod delectus</span>, neque et, adipisci expedita in, autem quos odio? Adipisci, ea optio. Debitis tempora molestiae eum!</p>
+
+    <!-- hipervinculos -->
+    <a href="https://www.google.com" target="_blank">ir a google</a><br>
+    <a href="#final">ir al final de la página</a><br>
+
+    <!-- multimedia -->
+    <video src="video/video.mp4" width="400" height="400" controls></video><br>
+    <img src="img/Imagen.jpg" width="400" height="400"><br>
+    <audio src="audio/audio.mp3" controls></audio><br>
+
+    <!-- listas -->
+
+    <ol>
+        <li>naruto</li>
+        <li>dragon ball z</li>
+        <li>one piece</li>
+    </ol>
+    <ul>
+        <li>tacos</li>
+        <li>quesadillas</li>
+        <li>burritos</li>
+    </ul>
+
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+        </tr>
+        <tr>
+            <td>Miguel</td>
+            <td>Barragan</td>
+        </tr>
+        <tr>
+            <td>Luis</td>
+            <td>Gonzales</td>
+        </tr>
+    </table><br>
+
+    <form action="control.php" method="post">
+
+        <label for="nombre" name="nombre">Nombre:</label><br>
+        <input type="text" name="nombre" id="nombre"><br><br>
+        <input type="email" name="correo" id="correo"><br><br>
+        <input type="password" name="contrasena" id="contrasena"><br><br>
+        <input type="date" name="fecha" id="fecha"><br><br>
+        <input type="number" name="edad" id="edad"><br><br>
+
+        <select>
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3" disabled>3</option>
+            <option value="4">4</option>
+        </select><br><br>
+
+        <input type="checkbox" name="comida" id="comida" value="tacos"><br>
+        <input type="checkbox" name="comida" id="comida" value="quesadilla"><br><br>
+
+        <input type="radio" name="genero" id="genero" value="hombre"><br>
+        <input type="radio" name="genero" id="genero" value="mujer"><br><br>
+
+        <textarea id="comentario" name="comentario"></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <br>
+    <hr>
+
+    <footer id="final">
+        <p>este es el pie de pagina </p>
+    </footer>
+</body>
+</html>
