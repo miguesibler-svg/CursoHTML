@@ -1,0 +1,13 @@
+crea un código html que contenga 
+
+
+
+header, nav, a(interno, externo, mailto), h1, h2,h3,h4,h5,h6, p, b, u, i, span, strong, em, img, video, audio, ol, ul, dl,  dt, dd, table, tr, td, th, caption, colspan, rowspan, form action, method, input(text, number, email, password, date, checkbox, radio, file) textarea, select(multiple), optgroup, option(selected, disabled), button(submit, reset), fieldset, legend, div, section, article, footer, br, hr, comentarios, label, tabindex, placeholder, readonly 
+
+
+
+pero que sea algo realista y que no tenga css ni Js 
+
+
+
+es para mejorar mi html solamente;

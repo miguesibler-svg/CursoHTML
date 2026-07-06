@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ejercicio 5 </title>
+</head>
+<body>
+
+    <header>
+        <h1>Academia Dev</h1>
+        <nav>
+            <a href="ejercicio15.html">Inico</a> |
+            <a href="ejercicio1.html">Curso</a> |
+            <a href="ejercicio8.html">Registro</a> |
+            <a href="https://developer.mozilla.org" target="_blank">MDN(ensalce externo)</a> |
+            <a href="mailto:migue.sibler@gmail.com">Contactanos</a>
+        </nav>
+    </header>
+    <hr>
+    
+    <section>
+        <h2>Bienvenidos</h2>
+        <p>Bienvenido a <b>Academia Dev</b>, donde aprenderás <i>desarrollo web</i> desde cero.</p>
+        <p>Este curso incluye temas sobre <strong>HTML</strong>, <em>CSS</em>, <u>JavaScript</u> y mucho más.</p>
+        <p>Inscripciones abiertasr</p>
+
+        <img src="img/Imagen.jpg" width="400" height="400" alt="programacion"> <br>
+        <video src="video/video.mp4" width="400" height="400" controls></video> <br>
+        <audio src="audio/audio.mp3" controls></audio>
+
+    </section>
+    <hr>
+
+    <div>
+        <h2>Nuestros cursos</h2>
+        <h3>curso html</h3>
+
+        <h4>Contenido básico</h4>
+        <ol>
+            <li>EStrucura de un domuento</li>
+            <li>Etiqueta principales</li>
+            <li>Enlaces e imágenes</li>
+        </ol>
+
+        <h3>Temas adicionales</h3>
+         <ul>
+            <li>Formularios</li>
+            <li>tablas</li>
+            <li>HTML Semaático</li>
+         </ul>
+
+         <h5>Requisitos</h5>
+         <dl>
+            <dt>computadora</dt>
+            <dd>Equipo con navegador moderno</dd>
+
+            <dt>conocimiento</dt>
+            <dd>No se requiere experiencia previa</dd>
+         </dl>
+
+         <h6>Modalidad</h6>
+         <p>100% en linea</p>
+    </div>
+
+    <hr>
+
+    <section>
+        <h2>Horarios</h2>
+        <table border="1">
+            <caption>Disponibillidad semanal</caption>
+            <tr>
+                <th>Horario</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoes</th>
+            </tr>
+            <tr>
+                <td>09:00 - 11:00</td>
+                <td rowspan="2">HTML</td>
+                <td>CSS</td>
+                <td>JavaScript</td>
+            </tr>
+            <tr>
+                <td>11:00 - 13:00</td>
+                <td colspan="2">Practica libre</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Formulario de Inscription</h2>
+
+        <form action="registro.php" method="post">
+
+        <fieldset>
+            <legend>Informacion personal</legend>
+
+            <label for="nombre">Nombre completo</label><br>
+            <input type="text" name="nombre" id="nombre"><br><br>
+            <label for="edad">Edad:</label><br>
+            <input type="number" name="edad" id="edad"><br><br>
+            <label for="correo">Correo:</label><br>
+            <input type="email" name="correo" id="correo"><br><br>
+            <lable for="contrasena">Contraseña</lable><br>
+            <input type="password" name="contrasena" id="contrasena"><br><br>
+            <label for="fecha_nacieminto">Fecha de nacimiento</label><br>
+            <input type="date" name="fecha_nacieminto" id="fecha_nacieminto">
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferencia</legend>
+            <input type="checkbox" name="deseo_boletion" id="deseo_boletion">
+            <label for="deseo_boletion">Deseo recibir el boletín.</label><br><br>
+            <label for="modalidad">Modalidad</label><br>
+            <input type="radio" name="modalidad" id="linea" value="linea">
+            <lable for="linea">En linea</lable><br>
+            <input type="radio" name="modalidad" id="presencial" value="presencial">
+            <label for="presencial">presencial</label><br><br>
+
+            <label for="compro_estudio">Comprobante de Estudios</label>
+            <input type="file" name="comprobante" id="comprobante"><br><br>
+
+            <label>comentarios</label><br>
+            <textarea name="comentario" placeholder="Escribe tus dudas" rows="5" cols="40"></textarea><br>
+
+            <label for="lenguaje_aprender">Lenguaje que deseas aprender</label><br>
+
+            <select name="lenguaje[]" size="4" multiple>
+                
+                <optgroup name="frontend">
+                    <label>frontend</label>
+                    <option value="HtML">Html</option>
+                    <option value="css">css</option>
+                    <option value="JavaScript">JavaScript</option>
+                </optgroup>
+                <optgroup name="backend">
+                    <label>backend</label>
+                    <option value="php">PHP</option>
+                    <option value="Python">Python</option>
+                    <option value="Java" disabled>Java</option>
+                </optgroup>
+            </select><br><br>
+
+
+            <label for="folio_asisnado">Folio asignado</label><br>
+            <input type="text" name="folio_asisnado" id="folio_asisnado" value="DEV-2026-001" readonly>
+        </fieldset><br>
+
+            <button type="submit">Envair inscription</button>
+            <button type="reser">Limpiar formulario</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>© 2026 Academia Dev <br><br>
+
+        Todos los derechos reservados.</p>
+
+    </footer>
+
+
+</body>
+</html>

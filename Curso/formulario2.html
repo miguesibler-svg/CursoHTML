@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formularios 2 </title>
+</head>
+<body>
+
+    <form action="registro" method="post">
+
+        Ingresa tu nombre
+        <input type="text" name="nombre" size="30"><br>
+        Selecciona su pais:
+        <select name="pais">
+            <option value="1">México</option>
+            <option value="2">Argentina</option>
+            <option value="3">España</option>
+            <option value="4">Perú</option>
+            <option value="5">Colombia</option>
+            <option value="6" disabled>Republica Dominicana</option>
+        </select><br><br>
+
+        Selecciona su color o colores favoritos:
+        <select name="colores[]" size="10" multiple>
+            <option value="1">Rojo</option>
+            <option value="2">Verde</option>
+            <option value="3">amarillo</option>
+            <option value="4">Azul</option>
+            <option value="5">Blanco</option>
+            <option value="6" disabled>negro</option>
+        </select> <br>
+
+        Selecciona frutas y vegetales:
+        <select name="articulos">
+            <optgroup label="Frutas">
+                <option value="1">Naranja</option>
+                <option value="2">Manzanas</option>
+                <option value="3">Bananas</option>
+                <option value="4">Uvas</option>
+            </optgroup>
+            <optgroup label="vegetales">
+                <option value="1">Zanahorias</option>
+                <option value="2">Lechgas</option>
+                <option value="3">Tomates</option>
+                <option value="4">Brócolies</option>
+            </optgroup>
+        </select><br>
+        <input type="submit" value="enviar">
+
+    </form>
+
+
+
+    <form>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        ingrese su nombre
+        <input type="text" name="nombre size=20"><br><br>
+        <button type="submit" class="btn"><i class="fa fa-save"></i> guardar </button>
+        <button type="submit" class="btn"><i class="fa fa-trash"></i> eliminar </button>
+        <button type="submit" class="btn"><i class="fa fa-edit"></i> editar </button>
+
+
+    </form>
+
+</body>
+</html>

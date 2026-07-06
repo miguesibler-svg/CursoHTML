@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="registro.php" method="post">
+
+        Seleccione la seccion donde desa ingresar<br>
+        <input type="radio" name="seccion" value="1" disabled>niños <br>
+        <input type="radio" name="seccion" value="2">adolecentes <br>
+        <input type="radio" name="seccion" value="3">adultos<br>
+
+        <button type="submit">enviar</button>
+    </form>
+
+    <br>
+
+    <form action="registro" method="post">
+        Ingese su nombre:
+        <input type="text" name="nombre" maxlength="20" size="20"> <br>
+        ingrese su contraseña
+        <input type="password" name="contrasena" maxlength="20" size="20"><br>
+        ingrese su nombre
+        <input type="text" name="nomb" size="20" value="miguel" readonly><br>
+        contrato <br>
+
+        <textarea cols="30" rows="10" readonly>
+            Por esta via aurotizo el uso de mis datos ................
+        </textarea><br>
+
+        <button type="submit">Aceptar</button>
+        <button type="submit">Rechasar</button>
+    </form>
+
+    <br>
+
+     <p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+       src="http://www.w3.org/Icons/valid-html401"
+       alt="Valid HTML 4.01 Strict" height="31" width="88"></a>
+    </p>
+
+
+</body>
+</html>

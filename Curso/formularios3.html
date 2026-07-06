@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <fieldset>
+        <legend>Datos personales</legend>
+        nombre y apellidos
+        <input type="text" name="nom_ape" size="30"><br>
+        Documento de identidad
+        <input type="text" name="dni" size="8"><br>
+        Fecha de nacimeinto
+        <input type="date" name="fechaNacimiento" size="7"><br>
+        Direccion
+        <input type="text" name="direcc_persona" size="50"><br>
+        telefono
+        <input type="text" name="telefono" size="8">
+
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+
+        <legend>Datos de empresa</legend>
+        nombre empresa
+        <input type="text" name="empres" size="30"><br>
+        Actividad
+        <input type="text" name="actividad" size="50"><br>
+        Direccion
+        <input type="text" name="direc_empresa" size="50"><br>
+        telefono
+        <input type="text" name="tel_empresa" size="8">
+    </fieldset>
+
+
+    <form action="registro" method="post">
+        ingresa tu nombre
+        <input type="text" name="nombre" size="20"><br><br>
+        Seleccione un archivo a cargar<br>
+        <input type="file" name="insert_file"><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+
+    <form action="login" method="post">
+
+        <input type="text" name="texto1" size="5" tabindex="1">
+        <input type="text" name="texto2" size="5" tabindex="2">
+        <input type="text" name="texto3" size="5" tabindex="3">
+        <input type="text" name="texto4" size="5" tabindex="4">
+
+        <br>
+
+        <input type="text" name="texto5" size="5" tabindex="5">
+        <input type="text" name="texto6" size="5" tabindex="6">
+        <input type="text" name="texto7" size="5" tabindex="7">
+        <input type="text" name="texto8" size="5" tabindex="8">
+
+        <br>
+
+        <input type="text" name="texto9" size="5" tabindex="9">
+        <input type="text" name="texto10" size="5" tabindex="10">
+        <input type="text" name="texto11" size="5" tabindex="11">
+        <input type="text" name="texto12" size="5" tabindex="12">
+
+    </form>
+
+</body>
+</html>

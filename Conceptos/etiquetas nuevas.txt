@@ -1,0 +1,87 @@
+etiquetas nuevas
+
+<!-- Manejo de textos-->
+
+<strong> Negrita </strong> 
+
+<em> Cursiva </em>
+
+<!-- correo -->
+
+<a href="mailto:migue.sibler@gmail.com">miguel</a>
+
+<a href="mailto:migue.sibler@gmail.com &cc=traceur.sibler@gmail.com &bcc=traceur.siblerg@gmail.com">equipos</a>
+
+
+<!-- listas-->
+
+<dl>  
+	<dt> tema </dt>
+	<dd> definición del tema </dd>
+</dl>
+
+
+<!-- tablas -->
+
+<caption>para ponerle tema a las tablas</caption>
+
+<td colspan> combinación de columnas </td>
+<td rowspan> combinación de filas </d>
+
+
+<!-- formularios -->
+
+<input type="file" name="insert_file"><br>
+
+<input type="text" name="texto4" size="5" tabindex="4">
+
+<input type="text" name="nomb" size="20" value="miguel" readonly>
+
+<input type="text" name="nombre" size="20" maxlenght="20" >
+
+
+ <select name="colores[]" size="4" multiple>>
+            <option value="1">Rojo</option>
+            <option value="2">Verde</option>
+            <option value="3">amarillo</option>
+            <option value="4">Azul</option>
+            <option value="5">Blanco</option>
+            <option value="6" disabled>negro</option>
+  </select>
+
+
+ Selecciona frutas y vegetales:
+        <select name="articulos">
+            <optgroup label="Frutas">
+                <option value="1">Naranja</option>
+                <option value="2">Manzanas</option>
+                <option value="3">Bananas</option>
+                <option value="4">Uvas</option>
+            </optgroup>
+            <optgroup label="vegetales">
+                <option value="1">Zanahorias</option>
+                <option value="2">Lechgas</option>
+                <option value="3">Tomates</option>
+                <option value="4">Brócolies</option>
+            </optgroup>
+   	</select>
+
+
+<fieldset>
+        <legend>Datos personales</legend>
+        nombre y apellidos
+        <input type="text" name="nom_ape" size="30"><br>
+        Documento de identidad
+        <input type="text" name="dni" size="8"><br>
+        Fecha de nacimeinto
+        <input type="date" name="fechaNacimiento" size="7"><br>
+        Direccion
+        <input type="text" name="direcc_persona" size="50"><br>
+        telefono
+        <input type="text" name="telefono" size="8">
+
+    </fieldset>
+
+
+
+

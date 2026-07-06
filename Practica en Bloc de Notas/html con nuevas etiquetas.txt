@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<HTML lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Todas las etiquetas</title>
+</head>
+<body>
+	
+	<header>
+		<h1>Carmen Galvan art</h1>
+		<nav>
+			<a href="quienSoy.html">Quien soy</a>
+			<a href="Galeria.html">Galeria de arte</a>
+			<a href="contactanos.html">Contactanos</a>
+			<a href="https://www.google.com" target="_blank">google</a>
+		</nav>
+	</header>
+
+	<hr>
+
+	<!-- H1-->
+	<section>
+		<h1>titulo 1 </h1>
+		<h2>titulo 2 </h2>
+		<h3>titulo 3 </h3>
+		<h4>titulo 4 </h4>
+		<h5>titulo 5 </h5>
+		<h6>titulo 6 </h6>
+	</section>
+
+	<br>
+	<hr>
+	<!-- manejo de texto -->
+
+	<div>
+		<p><b>Naruto</b> (ナルト? romanizada como NARUTO) es una serie de <i>manga escrita e ilustrada</i> por <u>Masashi Kishimoto</u>,
+ 		   posteriormente adaptada a una serie de anime. Narra la historia de un ninja adolescente llamado <span>Naruto Uzumaki</span>, 
+		   cuyos <strong>padres murieron</strong> en el ataque del Zorro Demonio <em>de Nueve Colas</em> y 
+		    quien aspira a convertirse en Hokage (líder de su aldea), con el propósito de ser reconocido como alguien importante 
+                   dentro de la aldea y entre sus compañeros.
+		</p>	
+
+		<p> este es un <strong> párrafo de prueba</strong> además de no contar con <em>cursiva</em>
+
+	</div>
+
+	<br>
+	<hr>	
+
+	<!-- Multimedia -->
+	<video src="video.mp4" width="400" height="400" controls></video>
+
+	<img src="img.jpg" width="400" height="400" alt="naruto" >
+
+	<audio src="audio.mp3" controls>
+
+
+	<!-- listas -->
+
+
+	<ol>
+		<li>listas ordenadas</li>
+
+	<ol>
+
+	<ul>
+		<li>Listas desordendasd</li>
+	</ul>	
+
+
+	<dl>
+		<dt>tema</dt>
+		<dd>descripcion</dd>
+	</dl>
+
+	
+	<!-- tablas -->
+
+	<caption>datos</caption
+
+	<table>
+
+		<tr>
+			<th>nombe</th>
+			<th>Apellido</th>
+		</tr>
+
+		<tr>
+			<td>miguel</td>
+			<td>Barragan</td>
+		</tr>
+
+	</table>
+
+
+	<table>
+		<tr>
+			<th colspan="3">anime<th>
+			<th rowspan="3">capitulos<th>
+		</tr>
+		<tr>
+			<td>nauro</td>
+			<td>750</td>
+		</tr>
+	</table>	
+
+
+	<section>
+
+		<form action="registro.php" method="400">
+
+			<label for="nombre"> Nombre </label>
+			<input type="text" name="nombre" id="nombre" placeholder="ingrese nombre">
+			<input type="number" name="edad" id="edad">
+			<input type="email" name="correo" id="correo">
+			<input type="date" name="fecha_naci" id="fecha_naci">
+			<input type="password" name="contrasena" id="contrasena">
+			<input type="file" name="docuemto" id="constasena">
+
+			<input type="radio" name="genero" id="mujer" value="mujer">
+			<input type="radio" name="genero" id="hombre" value="hombre">
+
+			<input type="checkbox" name="mexico" id="mexico">
+			<input type="checkbox" name="chile" id="chile">
+			<input type="checkbox" name="ecuador" id="ecuador">
+
+
+			<select >
+				<option value="programador" selected>
+				<option value="diseño_grafico">
+				<option value="redes" disabled>
+			</select>
+
+
+			<select >
+				<label for="frutas">Frutas</label>
+				<optgrup>
+					<option value="mango">
+					<option value="piña">
+					<option value="fresa">
+				</optgrup>
+
+				<label for="vegetales">vegetales</label>
+				<optgroup>
+					<option value="jitomate">
+					<option value="lechuga">
+					<option value="zanahoria"
+				</optgroup>
+			</select>
+
+		
+
+			<select name=color[] size="20" multiple>
+				<option value="azul">azul</option>
+				<option value="rojo">rojo</option>
+
+			</select>
+
+			<textarea name="mensaje" cols="10" rows="20" reandoly>sfjslfjsljlsfjslfjslfjslfj</textarea>
+	
+			<button type="submit">Enviar</button>
+			<button type="reset">Limpiar</button>
+		
+		</form>
+
+
+	</section>
+
+
+
+	<div>
+		<fielset>
+			<legend>docuemntos</legend>
+			<label for="nombre">Nombre<label>
+			<input type="text" name="nombe" id="nombre">
+
+			<button type="text">Enviar
+		</fielset>
+
+	<div>
+
+
+	<footer>crado por sibler</footer>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<HTML lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Docmeunto 2</title>
+</head>
+<body>
+
+	<!--Envabezado-->
+	<header>
+		<h1>Conocimiento básico de todo</h1>
+		<nav>
+			<a href="contacto.html">cotacto</a>
+			<a href="productos.html">productos</a>
+			<a href="https://www.google.com" target="_blank">google</a>
+			<a href="#fin"> final denpagina </a>
+		</nav>
+	</header>
+	<br>
+	<hr>
+
+	<div>
+		<!-- titulos-->
+		<h1>titulo 1</h1>
+		<h2>titulo 2</h2>
+		<h3>titulo 3</h3>
+		<h4>titulo 4</h4>
+		<h5>titulo 5</h5>
+		<h6>titulo 6</h6>
+	<div>
+		
+	<br>
+	<hr>
+
+	<section>
+		<!-- párrafos -->
+		<p> esto <b>es un párrafo</b> de ejem plo no <i>tinene</i> nada que ver <u>además de tener</u> errores <span>ortográficas</span
+		  asi <strong>como lmas</strong> estritas se <em>continua estrucibiendo</em> para poner mas finciones
+
+		</p>  
+	</section>
+
+	<hr>
+	<br>
+
+	<div>
+		<!--mutimedia-->
+		<video src="video.mp4" width="20" height="300" controls>
+		<img src="imagen.jpg" width="300" height="200" alt="carro">
+		<audio src="audio.mp3" controls>
+	</div>
+
+
+	<br>
+	<hr>
+
+	<section >
+		<!-- listas-->
+		<ol>
+			<li>miguel</li>
+			<li> jose </li
+		<ol>		
+
+		<ul>
+			<li>barragan</li>
+			<li>jomes</li>
+		</ul>
+
+		<dl>
+
+			<dt>tema1</dt>
+			<dd>descripcion</dd>
+		<dl>
+	<section >
+
+	<br>
+	<hr>
+	
+	<!-- tablas -->
+	<div>
+		<table>
+			<tr>
+				<th> nombre</th>
+				<th>apellido</th>
+			</tr>
+			<tr>
+				<td>miguel</td>
+				<td>barragan</td>
+			</tr>
+		</table>
+
+
+		<table>
+			<tr>
+				<th colspan="4"> mundioa</th>
+				<th rowspan="2">pais</th>
+			</tr>
+			<tr>
+				<td> mexico</td>
+				<td> españa</td>
+			</tr>
+		</table>
+	</div>
+
+
+	<section>
+		<!--formulario -->
+		
+		<form action="registro.php" method="post">
+			<label for="nombre">Nombre:</label>
+			<input type="text" name="nombre" id="nombre">
+			<input type="number" name="edad" id="edad">
+			<input type="date" name="fecha_naci" id="fecha_naci">
+			<input type="fiel" name="documento" id="docuemnto">
+			<input type="email" name="correo" id="correo">
+
+			<input type="radio" name="genero" id="mujer" value="mujer">
+			<input type="radio" name="genero" id="hombre" value="hombre">
+			
+
+			<input type="checkbox" name="pais" id="mexico" value="mexico">
+			<input type="checkbox" name="pais" id="chile" value="chile">
+
+			<select>
+				<option value="mexico">Mexico</option>
+				<option value="españa">españa</option>
+				<option value="colombia">colombia</option>
+			</select>
+
+			<select name=colores[] size="20" multiple>
+				<option value="azul">azuk</option>
+				<option value="rojo">rojo</oprion>
+				<option value="amarillo">amarillo</option>
+			<select> 
+
+
+			<select name="alumnos">
+				<optgroup>
+					<option value="miguel">miguel</option>
+					<option value="luis">luis</option>
+				<optgroup>
+
+				<optgroup>
+					<option value="jose">jose</option>
+					<option value="poma">poma</option>
+				</optgroup>
+			</select>
+
+			<textarea name="comentario" reandoly>sfjslfjlsdfjdslfjls</textarea>
+
+			<button type="submit">enviar</button>
+			<button type="reset">Limpiar</button>
+		</form>
+		
+	</section>
+
+	<div>
+		<fielset>
+			<legend> docuemntos</legend>
+			<label for="nombre">nombre</label>
+			<input type="text" name="nombre" id="nombre" placeholder="hola"> 
+	
+			<button type="text">enviar</button>
+		</fielset
+	
+	</div>
+
+	<footer>
+		<p>hecho por sibler</p>
+	</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
