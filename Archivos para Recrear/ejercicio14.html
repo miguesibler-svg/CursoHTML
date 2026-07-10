@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica de HTML</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1 id="inicio">Práctica Completa de HTML</h1>
+        <p>Este documento contiene la mayoría de las etiquetas básicas de HTML.</p>
+    </header>
+
+    <!-- NAV -->
+    <nav>
+        <ul>
+            <li><a href="#seccion1">Enlace Interno</a></li>
+            <li><a href="https://www.google.com" target="_blank">Enlace Externo</a></li>
+            <li><a href="mailto:correo@ejemplo.com">Enviar correo</a></li>
+        </ul>
+    </nav>
+
+    <!-- SECTION -->
+    <section id="seccion1">
+
+        <h2>Encabezado H2</h2>
+
+        <h3>Encabezado H3</h3>
+
+        <h4>Encabezado H4</h4>
+
+        <h5>Encabezado H5</h5>
+
+        <h6>Encabezado H6</h6>
+
+        <p>
+            Este es un párrafo con texto en
+            <b>negrita usando b</b>,
+            <strong>strong</strong>,
+            <i>cursiva usando i</i>,
+            <em>énfasis usando em</em>,
+            <u>subrayado</u>
+            y un <span>span dentro del párrafo</span>.
+        </p>
+
+    </section>
+
+    <!-- DIV -->
+    <div>
+        <h2>Contenido Multimedia</h2>
+
+        <h3>Imagen</h3>
+        <img src="imagen.jpg" alt="Imagen de ejemplo" width="300">
+
+        <h3>Video</h3>
+        <video controls width="400">
+            <source src="video.mp4" type="video/mp4">
+            Tu navegador no soporta video.
+        </video>
+
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Tu navegador no soporta audio.
+        </audio>
+    </div>
+
+    <!-- LISTAS -->
+    <section>
+
+        <h2>Listas</h2>
+
+        <h3>Lista Ordenada (ol)</h3>
+        <ol>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ol>
+
+        <h3>Lista Desordenada (ul)</h3>
+        <ul>
+            <li>Manzana</li>
+            <li>Pera</li>
+            <li>Naranja</li>
+        </ul>
+
+        <h3>Lista de Definiciones (dl)</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Lenguaje de marcado.</dd>
+
+            <dt>CSS</dt>
+            <dd>Lenguaje para estilos.</dd>
+
+            <dt>JavaScript</dt>
+            <dd>Lenguaje de programación.</dd>
+        </dl>
+
+    </section>
+
+    <!-- TABLA -->
+    <section>
+
+        <h2>Tabla</h2>
+
+        <table border="1">
+
+            <tr>
+                <th colspan="3">Alumnos</th>
+            </tr>
+
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Carrera</th>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Miguel</td>
+                <td>20</td>
+                <td>Sistemas</td>
+            </tr>
+
+            <tr>
+                <td>21</td>
+                <td>Programación</td>
+            </tr>
+
+            <tr>
+                <td>Ana</td>
+                <td>22</td>
+                <td>Diseño</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <!-- FORMULARIO -->
+    <section>
+
+        <h2>Formulario</h2>
+
+        <form action="procesar.php" method="post">
+
+            <div>
+                <label>Nombre:</label><br>
+                <input
+                    type="text"
+                    name="nombre"
+                    placeholder="Escribe tu nombre"
+                    readonly>
+            </div>
+
+            <br>
+
+            <div>
+                <label>Edad:</label><br>
+                <input
+                    type="number"
+                    name="edad"
+                    placeholder="Edad">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Fecha de nacimiento:</label><br>
+                <input type="date" name="fecha">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Correo:</label><br>
+                <input
+                    type="email"
+                    name="correo"
+                    placeholder="correo@ejemplo.com">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Contraseña:</label><br>
+                <input
+                    type="password"
+                    name="password"
+                    placeholder="Contraseña">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Archivo:</label><br>
+                <input type="file" name="archivo">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Checkbox</label><br>
+
+                <input type="checkbox" name="html">
+                HTML
+
+                <input type="checkbox" name="css">
+                CSS
+            </div>
+
+            <br>
+
+            <div>
+                <label>Radio</label><br>
+
+                <input type="radio" name="sexo" value="M">
+                Masculino
+
+                <input type="radio" name="sexo" value="F">
+                Femenino
+            </div>
+
+            <br>
+
+            <div>
+                <label>Textarea</label><br>
+                <textarea
+                    name="comentarios"
+                    rows="5"
+                    cols="40"
+                    placeholder="Escribe un comentario"></textarea>
+            </div>
+
+            <br>
+
+            <div>
+
+                <label>Seleccione materias</label><br>
+
+                <select
+                    name="materias"
+                    size="5"
+                    multiple>
+
+                    <optgroup label="Programación">
+
+                        <option selected>HTML</option>
+                        <option>CSS</option>
+                        <option>JavaScript</option>
+
+                    </optgroup>
+
+                    <optgroup label="Bases de Datos">
+
+                        <option>MySQL</option>
+                        <option>PostgreSQL</option>
+                        <option disabled>Oracle</option>
+
+                    </optgroup>
+
+                </select>
+
+            </div>
+
+            <br>
+
+            <button type="submit">Enviar</button>
+
+            <button type="reset">Restablecer</button>
+
+        </form>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>© 2026 Práctica HTML.</p>
+
+        <a href="#inicio">Volver al inicio</a>
+
+    </footer>
+
+</body>
+</html>
