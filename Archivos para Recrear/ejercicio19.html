@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reto Extremo HTML - Panel de Control Semántico</title>
+</head>
+<body>
+
+    <!-- CABECERA PRINCIPAL -->
+    <header>
+        <h1>Plataforma de Administración <strong>Global v4.2</strong></h1>
+        <p>Bienvenido de vuelta, <em>Usuario Administrador</em>. Último acceso: <u>17 de Julio de 2026</u>.</p>
+        
+        <!-- NAVEGACIÓN -->
+        <nav>
+            <ul>
+                <li><a href="#metricas">Métricas Críticas</a></li>
+                <li><a href="#inventario">Gestión de Inventario</a></li>
+                <li><a href="#registro">Alta de Productos</a></li>
+                <li><a href="#auditoria">Soporte y Auditoría</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- SECCIÓN DE MÉTRICAS Y REPORTES -->
+    <section id="metricas">
+        <h2>Resumen Ejecutivo y Métricas de Rendimiento</h2>
+        
+        <article>
+            <h3>Reporte de Rendimiento Trimestral</h3>
+            <p>Los datos muestran un incremento en las ventas de la categoría <b>Tecnología</b>, mientras que <i>Hogar</i> se mantiene estable.</p>
+            
+            <!-- Contenedor genérico para agrupar elementos multimedia -->
+            <div>
+                <h4>Evidencia de Rendimiento (Multimedia de Campaña)</h4>
+                <p>Miniatura del banner oficial:</p>
+                <img src="https://via.placeholder.com/150" alt="Logotipo corporativo de rendimiento anual">
+                <br>
+                <p>Video resumen de la auditoría:</p>
+                <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls preload="metadata">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+                <br>
+                <p>Nota de voz del Director de Finanzas:</p>
+                <audio src="https://www.w3schools.com/html/horse.mp3" controls preload="metadata">
+                    Tu navegador no soporta la reproducción de audio.
+                </audio>
+            </div>
+        </article>
+
+        <article>
+            <h3>Glosario de Términos Internos</h3>
+            <p>Es obligatorio revisar estos conceptos antes de modificar el inventario:</p>
+            <!-- Lista de definición -->
+            <dl>
+                <dt>SKU</dt>
+                <dd>Stock Keeping Unit. Código único de identificación física de cada producto.</dd>
+                <dt>ROI</dt>
+                <dd>Return On Investment. Retorno de inversión calculado sobre el gasto publicitario neto.</dd>
+            </dl>
+        </article>
+    </section>
+
+    <hr>
+
+    <!-- SECCIÓN DE INVENTARIO (TABLA COMPLEJA CON COLSPAN Y ROWSPAN) -->
+    <section id="inventario">
+        <h2>Inventario Global y Distribución de Almacenes</h2>
+        <p>La siguiente tabla contiene celdas fusionadas. Asegúrate de analizar cómo se alinean los encabezados.</p>
+
+        <table border="1">
+            <caption>Reporte Consolidado de Stock por Región y Categoría</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">Categoría Principal</th>
+                    <th rowspan="2">Subcategoría</th>
+                    <th colspan="2">Zona Norte (Almacén A)</th>
+                    <th colspan="2">Zona Sur (Almacén B)</th>
+                </tr>
+                <tr>
+                    <th>Disponibles</th>
+                    <th>Reservados</th>
+                    <th>Disponibles</th>
+                    <th>Reservados</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2"><b>Electrónica</b></td>
+                    <td>Smartphones</td>
+                    <td>150</td>
+                    <td>45</td>
+                    <td>85</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Laptops</td>
+                    <td>60</td>
+                    <td>18</td>
+                    <td>40</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td><b>Línea Blanca</b></td>
+                    <td>Refrigeradores</td>
+                    <td>25</td>
+                    <td>3</td>
+                    <td>14</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><strong>Totales Parciales por Zona</strong></td>
+                    <td colspan="2"><span>298 Unidades</span></td>
+                    <td colspan="2"><span>158 Unidades</span></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2"><strong>Total Global Neto</strong></td>
+                    <td colspan="4"><strong>456 Unidades en Sistema</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- SECCIÓN DEL FORMULARIO AVANZADO -->
+    <section id="registro">
+        <h2>Módulo de Alta y Modificación de Productos</h2>
+        <p>Completa todos los campos obligatorios para actualizar la base de datos centralizada.</p>
+
+        <form action="/submit-admin-form" method="POST" enctype="multipart/form-data">
+            
+            <!-- Bloque 1: Información Básica -->
+            <fieldset>
+                <legend>Información General del Elemento</legend>
+                
+                <p>
+                    <label for="txt-nombre">Nombre Comercial del Producto:</label>
+                    <input type="text" id="txt-nombre" name="nombre_producto" required placeholder="Ej. Monitor Gamer 27'">
+                </p>
+
+                <p>
+                    <label for="num-stock">Cantidad Inicial en Stock:</label>
+                    <input type="number" id="num-stock" name="cantidad_stock" min="0" max="9999" value="1">
+                </p>
+
+                <p>
+                    <label for="txt-email">Correo del Proveedor de Contacto:</label>
+                    <input type="email" id="txt-email" name="email_proveedor" required placeholder="proveedor@empresa.com">
+                </p>
+
+                <p>
+                    <label for="txt-pass">Clave de Seguridad para Modificación (Token):</label>
+                    <input type="password" id="txt-pass" name="token_seguridad" required>
+                </p>
+
+                <p>
+                    <label for="date-ingreso">Fecha de Ingreso a Almacén:</label>
+                    <input type="date" id="date-ingreso" name="fecha_ingreso">
+                </p>
+
+                <p>
+                    <label for="file-documento">Ficha Técnica Oficial (PDF o Imagen):</label>
+                    <input type="file" id="file-documento" name="archivo_producto">
+                </p>
+            </fieldset>
+
+            <br>
+
+            <!-- Bloque 2: Clasificación y Características -->
+            <fieldset>
+                <legend>Clasificación y Opciones de Despacho</legend>
+                
+                <p>
+                    <label for="sel-categoria">Categoría de Catálogo Obligatoria:</label>
+                    <select id="sel-categoria" name="categoria_seleccionada">
+                        <optgroup label="Tecnología e Informática">
+                            <option value="comp_hardware">Hardware y Componentes</option>
+                            <option value="comp_software">Licencias de Software</option>
+                            <option value="comp_perifericos" selected>Periféricos de Entrada/Salida</option>
+                        </optgroup>
+                        <optgroup label="Infraestructura de Redes">
+                            <option value="red_racks">Racks y Gabinetes</option>
+                            <option value="red_cableado">Cableado Estructurado</option>
+                        </optgroup>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="sel-etiquetas">Etiquetas de Búsqueda Indexable (Puedes elegir varias):</label>
+                    <select id="sel-etiquetas" name="etiquetas_producto" multiple size="4">
+                        <option value="tag_importado">Importado</option>
+                        <option value="tag_descuento">Oferta Especial</option>
+                        <option value="tag_envio_gratis">Envío Gratis</option>
+                        <option value="tag_reacondicionado">Reacondicionado</option>
+                    </select>
+                </p>
+
+                <div>
+                    <label>Estatus de Disponibilidad Inmediata:</label>
+                    <br>
+                    <input type="radio" id="rad-activo" name="estatus_nodo" value="activo" checked>
+                    <label for="rad-activo">Activo (Visible en tienda)</label>
+                    <br>
+                    <input type="radio" id="rad-pausa" name="estatus_nodo" value="pausado">
+                    <label for="rad-pausa">Pausado (Oculto temporalmente)</label>
+                    <br>
+                    <input type="radio" id="rad-baja" name="estatus_nodo" value="baja">
+                    <label for="rad-baja">Baja Definitiva</label>
+                </div>
+
+                <br>
+
+                <div>
+                    <label>Términos Legales y Logística Aplicable:</label>
+                    <br>
+                    <input type="checkbox" id="chk-politica" name="acepta_politica" value="si" required>
+                    <label for="chk-politica">Acepto la normativa de distribución internacional.</label>
+                    <br>
+                    <input type="checkbox" id="chk-seguro" name="requiere_seguro" value="si">
+                    <label for="chk-seguro">Este producto requiere seguro contra daños de fábrica obligatoriamente.</label>
+                </div>
+            </fieldset>
+
+            <br>
+
+            <!-- Bloque 3: Textos Largos y Envío -->
+            <fieldset>
+                <legend>Logs del Sistema y Confirmación</legend>
+                
+                <p>
+                    <label for="txt-descripcion">Términos Legales de Garantía (Modo de solo lectura):</label>
+                    <br>
+                    <textarea id="txt-descripcion" name="garantia_legal" rows="4" cols="50" readonly>CONTRATO DE GARANTÍA ESTÁNDAR: Este documento no es modificable por el operador. La garantía cubre un periodo estricto de 365 días naturales a partir de la fecha de ingreso registrada en el sistema de inventario centralizado.</textarea>
+                </p>
+
+                <!-- Botón de envío final -->
+                <button type="submit">Procesar Registro e Indexar Datos</button>
+            </fieldset>
+
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- SECCIÓN DE AUDITORÍA Y CHECKLIST -->
+    <section id="auditoria">
+        <h2>Protocolo Obligatorio de Cierre de Turno</h2>
+        <p>Cada administrador debe validar la siguiente lista de acciones antes de cerrar sesión:</p>
+        
+        <!-- Lista ordenada con sublista desordenada dentro (Anidamiento difícil) -->
+        <ol>
+            <li>Verificar que las tablas de stock no tengan valores negativos.</li>
+            <li>
+                Cotejar las cargas de archivos pesados.
+                <ul>
+                    <li>Formatos aceptados: .pdf, .png, .jpg</li>
+                    <li>Peso máximo por archivo: 10 Megabytes</li>
+                </ul>
+            </li>
+            <li>Asegurar que los tokens de seguridad coincidan con la base de datos cifrada.</li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>&copy; 2026 Corporativo de Sistemas de Información. Todos los derechos estrictamente reservados.</p>
+        <p>Dirección de Soporte Técnico Central: <a href="mailto:soporte@empresa.com">soporte@empresa.com</a></p>
+    </footer>
+
+</body>
+</html>

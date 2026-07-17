@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<HTML lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> todo mi conocimiento</title>
+</head>
+<body>
+	<header>
+		<h1>Mi primera pagina web</h1>
+		<nav>
+		<a href="curso.html">curso</a>|
+		<a href="#fin">fin</a>
+		<a href="https://www.google.com" target="_blank">Google</a>
+		</nav>
+	</header>
+
+	<hr>
+
+	<div>
+		<p>Un párrafo es <b>una</b> unidad <u>fundamental</u> del <i>texto escrito</i>, compuesta por un conjunto de 
+		   oraciones <span>que desarrollan<span> una idea <em>central<em>. Inicia con letra mayúscula y concluye 
+		   gráficamente con un punto y aparte, lo que permite organizar la información de manera
+	 	   lógica y coherente</p>
+	</div>
+
+	<section>
+		<!-- Titulos -->
+		<h2>titulo 2</h2>
+		<h3>titulo 3</h3>
+		<h4>titulo 4</h4>
+		<h5>titulo 5</h5>
+		<h6>titulo 6</h6>
+	</section>
+	<hr>
+
+	<section>
+		<
+	
+	</section>
+
+	<div>
+		<!-- Multimedia-->
+		<img src="img.jpg" width="400" height="200" alt="carro">
+		<video src="video.mp4" width="300" height="300" controls>
+		<audio src="audio.mp3" controls>
+	</div>
+
+	<section>
+		<!-- listas-->
+		<ol>
+			<li>lista ordernada </li>
+			<li>lista ordernada </li>
+		</ol>
+
+		<ul>
+			<li>lista desordenada </li>
+			<li>lista desordenada </li>
+		</ul>
+
+		<dl>
+			<dt>lista de definicion</dt>
+			<dd>description</dd>
+		</dl>
+
+	</section>
+
+	<hr>
+
+	<div> 
+		<!--tablas-->
+		<table>
+			<tr>
+				<th>nombre</th>
+				<th>apellido</th>
+			</tr>
+			<tr>
+				<td>miguel</td>
+				<d>barragan</td>
+			</tr>
+		</table>
+
+		<table>
+			<tr>
+				<th colspan="2">nombre</th>
+				<th rowspan="4">apellido</th>
+			</tr>
+			<tr>
+				<td>miguel</td>
+				<td>barragan</td>
+			</tr>
+		</table>
+
+	</div>
+
+	<br>
+
+	<section>
+		<form action="prueba.html" method="post">
+			<label for="nombre" placeholder="ingresa el nombre">Nombre: </label>
+			<input type="text" id="nombre" name="nombre">
+			<input type="number" id="edad" name="edad">
+			<input type="email" id="corre" name="correo">
+			<input type="date" id="fecha_naci" name="fecha_naci">
+			<input type="password" id="contrasena" name=="contrasena">
+			
+			<input type="radio" name="genero" id="hombre" value="hombre">
+			<input type="radio" name="genero" id="mujer" value="mujer">
+
+			<input type="checkbox" name="tacos" id="tacos" value="tacos">
+			<input type="checkbox" name="tortas" id="tortas" value="tortas">
+	
+			<select>
+				<option value="naruto" selected>naruto</option>
+				<option value="dragonballz" disabled>Dragon Ball z</option>
+				<option value="one_piece"> one Piece </option>
+			</select>
+
+			</select name="animales" multiple>
+				<optgroup>
+					<option> gato</option>
+					<option> perro</option>
+				</optgroup>
+
+				<optgroup>
+					<option> delfin</option>
+					<option> ballena</option>
+				</optgroup>
+			</select>
+
+			<textarea name="comentario" roaldy>escribe tu comentario</textarea>
+		
+			<button type="submit">enviar</button>
+			<button type="rest">limpiar</button>
+		</form>
+	</section>
+
+	<footer>
+		<p>derechos reservados de sibler
+	</footer>
+
+
+</body>

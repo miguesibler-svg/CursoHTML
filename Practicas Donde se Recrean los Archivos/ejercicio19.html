@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 19</title>
+</head>
+<body>
+    <header>
+        <h1>Plataforma de Administraion Global v4.2</h1>
+        <p>Bienvenido de vuelta, <i>Usuario Administrador</i>. Último acceso: <u>17 de Julio de 2026</u>.</p>
+
+        <nav>
+            <ul>
+                <li> <a href="#metricas">Métricas Críticas</a> </li>
+                <li> <a href="#inventario">Gestión de INventario</a> </li>
+                <li> <a href="#productos">Alta de Productos</a> </li>
+                <li> <a href="#soporte">Soporte y Auditoría</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <section>
+        <h2>Resumen Ejecutivo y Métricas de Redimiento</h2>
+        <article>
+            <h3>Reporte de rendimientos trimestral</h3>
+            <p>Los datos muestran un incremento en las ventas de la categoría <span>Tecnología</span>, mientras que <em>Hogar</em> se mantiene estable.</p>
+        </article>
+
+        <article>
+            <h4>Evidencia de Redimiento <strong>(Multimedia de Campaña)</strong></h4>
+            <p>Miniartura del banner oficial:</p>
+            <img src="img/Imagen.jpg" width="400" height="400" alt="300">
+            <p>Video Resumen de auditoría</p>
+            <video src="video/video.mp4" width="400" height="400" controls></video>
+            <p>Nota de voz del Director de Finanzas:</p>
+            <audio src="audio/audio.mp3" controls></audio>
+        </article>
+
+        <article>
+            <h3>Glosario de Terminos Internos</h3>
+            <p>Es obligaroria revisar estos conceptos antes de modificar el inventario</p>
+            <dl>
+                <dt>SKU</dt>
+                <dd>Stock Keeping Unit. Código único de identificación física de cada producto.</dd>
+
+                <dt>ROI</dt>
+                <dd>Return On Investment: Retrono de Inversion calculado sobre el gasto publicitario neto.</dd>
+            </dl>
+        </article>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Inbentario Global y Distribución de Almacenes</h2>
+        <p>La siguiente tabla contiene celdas fusionadas. Asegúrate de analizar cómo se alinean los encabezados.</p>
+        <table border="2">
+            <caption>Reporte Consolidado de Strock por Región y Categoría</caption>
+            <tr>
+                <th rowspan="2">Categoria Principal</th>
+                <th rowspan="2">Subcategoria</th>
+                <th colspan="2">Zona Norte (Almacén A)</th>
+                <th colspan="2">Zona Sur (Almacén B)</th>
+            </tr>
+            <tr>
+                <th>Disponibles</th>
+                <th>Reservados</th>
+                <th>Disponibles</th>
+                <th>Reservados</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Electrónica</th>
+                <td>Smartphones</td>
+                <td>150</td>
+                <td>45</td>
+                <td>85</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Laptoss</td>
+                <td>60</td>
+                <td>18</td>
+                <td>40</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>Linea blanca</th>
+                <td>Refrigeradores</td>
+                <td>25</td>
+                <td>3</td>
+                <td>14</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th colspan="2">Totales Parciales por Zona</th>
+                <td colspan="2">298 Unidades</td>
+                <td colspan="2">158 Unidades</td>
+            </tr>
+            <tr>
+                <th colspan="2">Total Global Neto</th>
+                <th colspan="4">456 Unidades en Sistema</th>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Módulo de alta y Modificación de Productos</h2>
+        <p>Completa todos los campos pbligatorios para actulizar la base de datos centralizada.</p>
+
+        <fieldset>
+            <legend>Información General de Elemento</legend>
+            <p><label for="Nombre">Nombre Comercial del Producto: <input type="text" id="nombre" name="nombre" placeholder="Ej. Monitor Gamer 27'"> </label> </p>
+
+            <p> <label for="cantidad">Cantidad Inicial en Strock: <input type="number" id="cantidad" name="cantidad"> </label> </p>
+
+            <p> <label for="correo"> Correo del Proveedor de Contacto: <input type="email" id="correo" name="correo" placeholder="Proveedor@empresa.com"> </label> </p>
+
+            <p> <label for="clave">  Clave de Seguridad para Modificación (Token) <input type="password" id="clave" name="clave"> </label> </p>
+
+            <p> <label for="fehca_ingreso"> Fecha de Ingreso a Alma+en: <input type="date" id="fehca_ingreso" name="fehca_ingreso"> </label> </p>
+
+            <p> <label for="ficha"> Ficha Técnica Oficial(PDF o Imagen): <input type="file" id="ficha" name="ficha"> </label> </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Clasificación y Operaciones de Despacho</legend>
+
+           <label for="Categoria"> Categoria de Catálogo Obligaroia: </label>
+           <select>
+            <optgroup label="Tecnología e Informatica">
+                <option value="Hardware y componentes"> Hardware y componentes</option>
+                <option value="Licencias de software">Licencias de Software</option>
+                <option value="perifericos">Periféricos de Entrada/Salida</option>
+            </optgroup>
+            <optgroup label="Infrastructura de Redes">
+                <option value="Cableado Estructurado"> Cableado Estructurado</option>
+                <option value="Racks y Gabinetes">Racks Y Gabinetes</option>
+            </optgroup>
+           </select><br><br>
+
+           <label for="etiquetas">Etiquetas de Búsqueda Indexable (Puedes elegir varias): </label>
+           <select name="etiqueta" size="4" multiple>
+                <option value="Importado">Importado</option>
+                <option value="oferta">Oferta ESpecial</option>
+                <option value="envio">Envío Gratis</option>
+                <option value="reacondicionado">Reacondicionado</option>
+           </select><br><br>
+
+           
+           <p>
+            <label for="estatus_disponibilidad">Estatus de Disponibilidad Inmediate:</label><br>
+            <label for="activo"> <input type="radio" name="estatus" id="activo" value="activo"> Activo (Visible en tienda)</label><br>
+            <label for="pausado"> <input type="radio" name="estatus" id="pausado" value="pasuado"> Paudado (Oculto temporalmente) </lable><br>
+            <label for="baja"> <input type="radio" name="estatus" id="baja" name="baja" value="baja"> Baja Definitiva </label><br>
+           </p>
+
+           
+           <p> 
+            <label>Términos Legales y Logística Aplicable:</label><br>
+            <label> <input type="checkbox" id="acepto" name="acepto"> Acepto la normativa de distrivución internacional. </label> <br>
+            <label> <input type="checkbox" id="seguro" name="seguro"> Este producto requiere seguro contra daños de fábrica obligatoriamente. </label>
+            </p><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Logs del Sistema y Confirmación</legend>
+            <label> Términos Legales de Garantia (Modo de solo lectura): <br> <textarea rows="4" cols="50">CONTRATO DE GARANTÍA ESTÁNDAR: Este documento no es modificable por el operador. La garantía cubre un periodo estricto de 365 días naturales a partir de la fecha de ingreso registrada en el sistema de inventario centralizado.</textarea> </label><br><br>
+
+            <button type="submit">Procesar Registro e Indexar datos</button>
+        </fieldset>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Protocolo Obligarorio de cierre de Turno</h2>
+        <p>Cada administrador debe validar la siguiente lista de acciones antes de cerrar sesión:</p>
+        <ol>
+            <li>Verificar que las tablas de stock no tengan valores negativos.</li>
+            <li>Cotejar las cargas de archivos pesados.
+                <ul>
+                    <li>Formatos aceptados: .pdf, .png, .jpg</li>
+                    <li>Peso máximo por archivo: 10 Megabytes</li>
+                </ul>
+                
+            </li>
+            <li>Asegurar que los tokens de seguridad coincidan con la base de datos cifrada.</li>
+        </ol>
+    </section>
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Corporativo de Sistemas de Información. Todos los derechos estrictamente reservados.</p>
+        <p>Dirección de Soporte Técnico Central: <a href="mailto:soporte@empresa.com">soporte@empresa.com</a></p>
+    </footer>
+</body>
+</html>

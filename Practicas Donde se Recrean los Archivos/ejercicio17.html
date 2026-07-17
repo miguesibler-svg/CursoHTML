@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 17</title>
+</head>
+<body>
+    <header>
+        <h1>Hospital San Gabriel</h1>
+        <p>Más de 25 <strong>años ofeciendo</strong> atención médica de alta especialidad.</p>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#especialidad">Especialidad</a></li>
+                <li><a href="#medicos">Médicos</a></li>
+                <li><a href="#horario">Horarios</a></li>
+                <li><a href="servicio">Servicios</a></li>
+                <li><a href="agendar">Agender cita</a></li>
+                <li><a href="contactos">contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <section>
+        <h2>Vienvenido</h2>
+        
+        <p>El hospital <span>San graviel</span> cuenta con a´reas de <u>Urgencias</u>, <i>Pediatría</i>, <b>Cardiologia</b>, <i>Traumatología</i> y mas de 70 especialistas cierificados.</p>
+
+        <div>
+            <img src="img/Imagen.jpg" width="400" height="300" alt="carro">
+        </div>
+
+        <div>
+            <video src="video/video.mp4" width="400" height="400" controls></video>
+        </div>
+
+        <div>
+            <audio src="audio/audio.mp3" controls></audio>
+        </div>
+    </section>
+    <hr>
+
+    <section>
+        <article>
+            <h2>Áreas Médicas</h2>
+
+            <ul>
+                <li>Medcina General</li>
+                <li>Cardiología</li>
+                <li>Neurología</li>
+                <li>Traumatología</li>
+                <li>Dermatología</li>
+                <li>Oncología</li>
+                <li>Pediatría</li>
+                <li>Ginecología</li>
+                <li>Oftalmología</li>
+                <li>Otorinolaringología</li>
+            </ul>
+        </article>
+
+        <article>
+            <h2>Preceso para consulta</h2>
+            <ol>
+                <li>Crear expediante.</li>
+                <li>Seleccionar especialidad.</li>
+                <li>Elegir médico</li>
+                <li>Elegir horario.</li>
+                <li>Confirmar cita.</li>
+                <li>Realizar Pago</li>
+                <li>Presentarse 15 minutos antes.</li>
+            </ol>
+        </article>
+    </section>
+    <hr>
+
+    <section>
+        <h2>Directorio médico</h2>
+        <table border="1">
+            <caption>Especialistas disponibles</caption>
+            <tr>
+                <th rowspan="2">Especialidad</th>
+                <th colspan="2">Doctor</th>
+                <th rowspan="2">Consultorio</th>
+            </tr>
+            <tr>
+                <th>Nombre</th>
+                <th>Horario</th>
+            </tr>
+            <tr>
+                <td>Caridología</td>
+                <td>Dra. Laura Gómez</td>
+                <td>08:00 - 14:00</td>
+                <td>201</td>
+            </tr>
+            <tr>
+                <td>Traumatología</td>
+                <td>Dr. Carolos Ruiz</td>
+                <td>10:00 - 18:00</td>
+                <td>204</td>
+            </tr>
+            <tr>
+                <td>Pediatría</td>
+                <td>Dra. Ana Martínez</td>
+                <td>09:00 - 15:00</td>
+                <td>305</td>
+            </tr>
+            <tr>
+                <td colspan="3">Guardias Nocturnas</td>
+                <td>Urgencias</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+
+    <section>
+        <h2>Servicios Hospitalarios</h2>
+        <div>
+            <h3>Laboratorio</h3>
+            <p>disponibles las <span>24 horas</span></p>
+        </div>
+
+        <div>
+            <h4>Farmacia</h4>
+            <p>Medicamentos nacionales e importados</p>
+        </div>
+
+        <div>
+            <h5>Banco de Sangre</h5>
+            <p>Servicio permantente para emergencias.</p>
+        </div>
+
+        <div>
+            <h6>Glosario Médicos</h6>
+
+            <dl>
+                <dt>Consulta Externa</dt>
+                <dd>Atención médica sin hospitalización</dd>
+
+                <dt>Hospitalizacion</dt>
+                <dd>Ingreso del paciente para tratameinto</dd>
+
+                <dt>Triage</dt>
+                <dd>Clasificacion de pacientes según gravedad.</dd>
+            </dl>
+        </div>
+    </section>
+    <hr>
+
+    <section>
+        <h2>Solicitud de Cita</h2>
+        <form action="registro.php" method="post">
+
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre Completo: </label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                
+                <label for="edad">Edad: </label>
+                <input type="number" id="edad" name="edad"><br><br>
+
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" id="correo" name="correo"><br><br>
+
+                <label for="contrasena">Contraseña</label>
+                <input type="password" id="contrasena" name="contrasena"><br><br>
+
+                <label for="fecha">Fecha de Nacimiento</label>
+                <input type="date" id="fecha" name="fecha"><br><br>
+
+                <label for="archivo">Subir Identificacion</label>
+                <input type="file" id="archivo" name="archivo"><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Inforamacion Médica</legend>
+                <label for="sexo">Sexo</label>
+                <p>
+                    <input type="radio" name="genero" id="masculino" values="masculino">Masculino<br>
+                    <input type="radio" name="genero" id="femenino" values="femenino">Femenino
+                </p>
+
+                <label for="padeciemineto">Padecimiento</label>
+                <p>
+                    <input type="checkbox" id="diabetes" name="diabetes">Diabetes<br>
+                    <input type="checkbox" id="hipertencion" name="hipertencion">hipertencion<br>
+                    <input type="checkbox" id="asma" name="asma">asma<br>
+                    <input type="checkbox" id="ninguno" name="ninguno">ninguno<br>
+                </p>
+
+                <label>Especialidad</label><br>
+                <select name="especialidad" size="4" multiple>
+                    <optgroup label="Consulta general">
+                        <option value="Medicina_general">Medicina General</option>
+                        <option value="Pediatria">Pediatría</option>
+                        <option value="Nutricion">Nutricion</option>
+                    </optgroup>
+
+                    <optgroup label="Especialidad">
+                        <option value="Cardiologia">Cardiologia</option>
+                        <option value="Neurologia">Neurologia</option>
+                        <option value="Dermatología">Dermatología</option>
+                        <option value="tratameinto">Traumatología</option>
+                        <option value="Oncología">Oncología</option>
+                    </optgroup>
+
+                </select><br><br>
+
+                <label for="Obervaciones">Obervaciones</label><br>
+                <textarea cols="55" rows="6" readonly>Este espacio será llenado únicamente por el médico responsable</textarea><br><br>
+
+                <button type="submit"> Agendar cita</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Contacto</h2>
+        <h3>ciudad</h3>
+        <h4>Atención al cliente</h4>
+        <h6>Disponiblida las 24 horas</h6>
+
+        <p>correo: <a href="mailto:contacto@hospital.com">contacto@hospital.com</a></p>
+        <p>Telefono: 5512345678</p>
+    </section>
+
+    <footer>
+        <p>Hospital San Gabriel © 2026 <br>
+
+Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 18</title>
+</head>
+<body>
+    <header>
+        <h1>Conferencia Tech Future 2026</h1>
+        <p>Bienvenido a la conferencia anual sobre <strong>tecnología</strong>, <i>innovación</i>, <span>inteligencia artificial</span>, <em>desarrollo web</em> y <u>ciberseguridad</u>.</p>
+        <hr>
+
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Ponentes</li>
+                <li>Agenda</li>
+                <li>Registro</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section>
+        <h2>Acerca del evento</h2>
+
+        <img src="img/Imagen.jpg" width="400" height="200" alt="carro">
+
+        <p>La conferencia reúne a expertos de más de 40 países <br> <br> Durante tres días podrás asistir a talleres, conferencias y actividades de networking.</p>
+    </section>
+
+    <section>
+        <h2>Ponentes invitados</h2>
+        <article>
+            <h3>Conferencias principales</h3>
+            <ul>
+                <li>Desarrolo web moderno</li>
+                <li>Machine Learning</li>
+                <li>Cloud Computing</li>
+                <li>ciberseguridad</li>
+            </ul>
+        </article>
+
+        <article>
+            <h4>Talleres especializados</h4>
+            <ol>
+                <li>INtroducción a Docker</li>
+                <li>Api Rest</li>
+                <li>Accesibilidad Web</li>
+                <li>Optimizacion SQL</li>
+            </ol>
+        </article>
+    </section>
+
+    <section>
+        <h2>Agenda del evento</h2>
+        <table border="1">
+            <tr>
+                <th rowspan="2">Hora</th>
+                <th colspan="2">Dia 1</th>
+                <th colspan="2">Dia 2</th>
+            </tr>
+
+            <tr>
+                <td>Salon A</td>
+                <td>Salon B</td>
+                <td>Salon A</td>
+                <td>Salon B</td>
+            </tr>
+
+            <tr>
+                <td>09:00</td>
+                <td>Registro</td>
+                <td>networking</td>
+                <td>Cloud</td>
+                <td>IA</td>
+            </tr>
+             <tr>
+                <td>11:00</td>
+                <td colspan="2">Conferencia Magistral</td>
+                <td>Cloud</td>
+                <td>IA</td>
+            </tr>
+             <tr>
+                <td>14:00</td>
+                <td>Registro</td>
+                <td>networking</td>
+                <td colspan="2">Mesa redonda</td>
+            </tr>
+        </table>
+    </section>
+
+    <Section>
+        <h2>Recursos Multimedia</h2>
+        <diV>
+            <h6>Video Promocial</h6>
+            <video src="video/video.mp4" width="400" height="400" controls></video>
+        </diV>
+
+        <div>
+            <h6>Audio de Bienvenida</h6>
+            <audio src="audio/audio.mp3" controls></audio>
+        </div>
+    </Section>
+
+    <section>
+        <h2>Preguntas Frecuentes</h2>
+        <dl>
+            <dt>¿El evento tiene costo?</dt>
+            <dd>Si, existen diferentes ripo de boletos</dd>
+
+            <dt>¿Se entrega constancia</dt>
+            <dd>Si, al finalizar el evento</dd>
+
+            <dt>¿Habrá transmision en línea</dt>
+            <dd>Solo algunas conferencias.</dd>
+        </dl>
+    </section>
+
+    <section>
+        <h2>Formulario de Registro</h2>
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <p>
+                nombre: <input type="text" id="nombre" name="nombre" placeholder="ingresa nombre"> <br><br>
+                Edad: <input type="number" id="edad" name="edad"><br><br>
+                Correo: <input type="email" id="correo" name="correo"><br><br>
+                Contraseña: <input type="password" id="contrasena" name="contrasena"><br><br>
+                Fecha de Nacimiento: <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br><br>
+                Subir identificacion: <input type="file" id="archivo" name="archivo"><br><br>
+            </p>
+        </fieldset> <br>
+
+        <fieldset>
+            <legend>Preferencias</legend>
+            
+            <p> 
+                <h4>Modalidad</h4>
+                <input type="radio" id="presencial" name="modalidad" value="presencial"> presencial <br>
+                <input type="radio" id="virtual" name="modalidad" value="Virtual"> Virtual
+            </p>
+
+            
+            <p>
+                <h4>Servicios adicionales</h4>
+                <input type="checkbox" id="comida" name="comida"> Comida <br>
+                <input type="checkbox" id="transporte" name="transporte"> Transporte<br>
+                <input type="checkbox" id="hotel" name="hotel">Hotel<br>
+            </p>
+
+            <p>
+                Talleres de interés <br>
+                <select name="talleres" size="5" multiple>
+                    <optgroup label="Desarrollo">
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="JavaScript">JavaScript</option>
+                    </optgroup>
+                    <optgroup label="Backend">
+                        <option value="Java">Java</option>
+                        <option value="Python">Phyton</option>
+                        <option value="Node.js">Node.js</option>
+                    </optgroup>
+                </select>
+            </p>
+
+            <p>
+                comentarios<br>
+                <textarea cols="40" rows="8">Este espacio es solo de lectura.</textarea>
+            </p>
+
+            <button type="submit">Enviar Registro</button>
+        </fieldset>
+    </section>
+
+    <section>
+        <h2>Contacto</h2>
+        <h6>Informacion adicional</h6>
+        <p>Correo: <a href="mailto:info@techfuture.com">info@techfuture.com</a></p>
+        <p>Sitio oficial: <a href="https://www.google.com" target="_blank">www.google.com</a></p>
+    </section>
+
+    <footer>© 2026 Tech Future Conference. Todos los derechos reservados.</footer>
+
+</body>
+</html>

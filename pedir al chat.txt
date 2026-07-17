@@ -1,0 +1,10 @@
+dame un código html que contenga 
+
+
+
+header, nav, section, article, div, footer, h1, h2, h3, h4, h5, h6, p, strong, em, b, i, u, span, br, hr, a, img, video, audio, ol, ul, li, dl, dt, dd, table(colspan, rowspan), caption, tr, th, td, form, fieldset, legend, label, input(text, number, email, password, date, file, checkbox, radio), textarea(readonly), select(multiple), optgroup, option, button
+
+
+
+Qué no contenga css ni js es para practicar mi html  que sea difícil y sea realista  
+
