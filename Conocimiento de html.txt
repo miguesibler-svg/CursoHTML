@@ -1,0 +1,140 @@
+<!-- Comentario -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conocimiento HTML</title>
+    <link rel="stylesheet" href="css/conocimiento.css">
+</head>
+<body>
+
+</body>
+</html>
+
+
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+
+
+<p></p>
+<b></b>
+<i></i>
+<u></u>
+<span></span>
+<strong></strong>
+<em></em>
+
+
+<br>
+<hr>
+
+
+<a href="paginas/pagina1.html"></a>
+<a href="#inicio">Vínculo interno</a>
+<a href="https://www.google.com" target="_blank">Vínculo externo</a>
+<a href="img/img.jpg" download>Descargar</a>
+
+
+<div></div>
+<section></section>
+<article></article>
+<aside></aside>
+<header></header>
+<main></main>
+<nav></nav>
+<footer></footer>
+
+
+<img src="" alt="">
+<video src="" controls></video>
+<audio src="" controls></audio>
+
+
+<ul>
+    <li></li>
+</ul>
+
+<ol>
+    <li></li>
+</ol>
+
+<dl>
+    <dt></dt>
+    <dd></dd>
+</dl>
+
+
+<table>
+
+    <caption></caption>
+
+    <tr>
+        <th></th>
+    </tr>
+
+    <tr>
+        <td></td>
+    </tr>
+
+</table>
+
+
+<form action="" method="">
+
+</form>
+
+
+<fieldset>
+
+    <legend></legend>
+
+</fieldset>
+
+
+<label for=""></label>
+
+
+<input type="text" id="" name="" placeholder="">
+<input type="number" id="" name="">
+<input type="email" id="" name="">
+<input type="date" id="" name="">
+<input type="file" id="" name="">
+<input type="password" id="" name="">
+<input type="range" id="" name="">
+<input type="checkbox" id="" name="" value="">
+<input type="radio" id="" name="" value="">
+
+
+<select name="">
+
+    <option value="">1</option>
+    <option value="" disabled>2</option>
+    <option value="" selected>3</option>
+
+</select>
+
+<select name="" size="4" multiple>
+
+    <optgroup label="">
+
+        <option value="">1</option>
+        <option value="" disabled>2</option>
+        <option value="" selected>3</option>
+
+    </optgroup>
+
+</select>
+
+
+<textarea></textarea>
+<textarea readonly></textarea>
+
+
+<button type="submit"> </button>
+<button type="reset"> </button>
